@@ -45,7 +45,8 @@ def get_answer(pred):
 
 if __name__ == "__main__":
     args = parser.parse_args()
-    openai.api_key = os.getenv('OPENAI_KEY')
+    # openai.api_key = os.getenv('OPENAI_KEY')
+    openai.api_key = "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"
 
     for filename in glob.glob(args.inputs):
         print('Start', filename)
@@ -69,16 +70,17 @@ if __name__ == "__main__":
                         prompt += f'evidence: {response["response"]}\n'
                         prompt += 'answer:'
 
-                        tmp = openai.Completion.create(
-                          model="gpt-3.5-turbo-instruct",
-                          prompt=prompt,
+                        tmp = openai.ChatCompletion.create(
+                          model="gpt-3.5-turbo",
+                        #   prompt=prompt,
                           temperature=0.7,
                           max_tokens=64,
                           top_p=1,
                           frequency_penalty=0,
-                          presence_penalty=0
+                          presence_penalty=0,
+                          messages=[{"role": "user", "content": prompt}]
                         )
-                        tmp = tmp['choices'][0]["text"].strip().strip('\n')
+                        tmp = tmp['choices'][0]["message"]['content'].strip().strip('\n')
 
                         response.pop('response')
                         response['prediction'] = tmp
