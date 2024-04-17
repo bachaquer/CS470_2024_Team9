@@ -74,7 +74,7 @@ if __name__ == "__main__":
                           model="gpt-3.5-turbo",
                         #   prompt=prompt,
                           temperature=0.7,
-                          max_tokens=64,
+                          max_tokens=100,
                           top_p=1,
                           frequency_penalty=0,
                           presence_penalty=0,
