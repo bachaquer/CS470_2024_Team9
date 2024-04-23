@@ -10,8 +10,8 @@ from datetime import datetime
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--channel", required=True, type=str)
-parser.add_argument("--option", default='cot', type=str)
-parser.add_argument("--model", default='text-davinci-002', type=str)
+parser.add_argument("--option", default='direct', type=str)
+parser.add_argument("--model", default='gpt-3.5-turbo', type=str)
 parser.add_argument("--start", required=True, type=int)
 parser.add_argument("--end", required=True, type=int)
 parser.add_argument("--dry_run", default=False, action="store_true",
@@ -134,7 +134,8 @@ Explanation: the team only lost 2 games instead of 3 games, therefore, the claim
 if __name__ == "__main__":
     args = parser.parse_args()
 
-    openai.api_key = os.getenv('OPENAI_KEY')
+    # openai.api_key = os.getenv('OPENAI_KEY')
+    openai.api_key = "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"
 
     with open(f'test_statements_{args.channel}.json') as f:
         tabfact = json.load(f)
@@ -172,17 +173,18 @@ if __name__ == "__main__":
             print(prompt)
             print()
         else:
-            response = openai.Completion.create(
+            response = openai.ChatCompletion.create(
               model=args.model,
-              prompt=prompt,
+            #   prompt=prompt,
               temperature=0.5,
               max_tokens=80,
               top_p=1,
               frequency_penalty=0,
-              presence_penalty=0
+              presence_penalty=0,
+              messages=[{"role": "user", "content": prompt}]
             )
 
-            response = response['choices'][0]["text"].strip().strip('\n').strip('\n').split('\n')[0]
+            response = response['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0]
             if 'true' in response:
                 predict = 1
             elif 'false' in response:

@@ -37,7 +37,8 @@ Answer: In 2019, Shagun Sharma played in the roles as Pernia in Laal Ishq, Vikra
 if __name__ == "__main__":
     args = parser.parse_args()
 
-    openai.api_key = os.getenv('OPENAI_KEY')
+    # openai.api_key = os.getenv('OPENAI_KEY')
+    openai.api_key = "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"
 
     with open(f'test_qa.json') as f:
         fetaqa = json.load(f)
@@ -65,17 +66,18 @@ if __name__ == "__main__":
         if args.dry_run:
             print(prompt)
         else:
-            response = openai.Completion.create(
-              model="text-davinci-002",
-              prompt=prompt,
+            response = openai.ChatCompletion.create(
+              model="gpt-3.5-turbo",
+            #   prompt=prompt,
               temperature=0.7,
-              max_tokens=64,
+              max_tokens=100,
               top_p=1,
               frequency_penalty=0,
-              presence_penalty=0
+              presence_penalty=0,
+              messages=[{"role": "user", "content": prompt}]
             )
 
-            response = response['choices'][0]["text"].strip().strip('\n')
+            response = response['choices'][0]["message"]['content'].strip().strip('\n')
 
             tmp = {'key': key, 'question': question, 'response': response, 'answer': answer, 'table_id': entry['table_id']}
 

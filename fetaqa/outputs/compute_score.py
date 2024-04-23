@@ -63,7 +63,8 @@ if __name__ == '__main__':
     import json
 
     test_data = []
-    with open("response_s0_e200_08_14_23.json") as f:
+    name_of_file = input()
+    with open(name_of_file) as f:
         for line in f:
             if 'response' in line:
                 test_data.append(json.loads(line))
