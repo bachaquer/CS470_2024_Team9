@@ -235,13 +235,6 @@ Answer: 2
 Question: Which of the following options is more likely to include the names of the columns in the table?
 """
 
-question_demonstration = """
-Please replace sentences with simpler ones, keeping the meaning the same. If the sentence is already simple, leave it as is. 
-
-Complex: What is the total number of private schools in saginaw that offer classes from kindergarten to high school graduation?
-Simple: How many private schools in Saginaw teach from kindergarten to high school?
-"""
-
 def decompose_table(table_original, columns):
     table = table_original.strip().strip('\n').strip('\n').split('\n')
     first_row = table[0].strip().split(" | ")
@@ -263,23 +256,23 @@ def decompose_table(table_original, columns):
         ans_table.append(" | ".join(processed_row))
     return '\n'.join(ans_table) + '\n'
 
-# def get_two_columns(table_original):
-#     table = table_original.strip().strip('\n').strip('\n').split('\n')
-#     two_col_table = []
-#     for l in range(len(table)):
-#         line = table[l].strip().split(" | ")
-#         two_col_table.append(line[0] + " | " + line[1])
-#     return "\n".join(two_col_table)
+def get_two_columns(table_original):
+    table = table_original.strip().strip('\n').strip('\n').split('\n')
+    two_col_table = []
+    for l in range(len(table)):
+        line = table[l].strip().split(" | ")
+        two_col_table.append(line[0] + " | " + line[1])
+    return "\n".join(two_col_table)
 
-# def decompose_table_byrows(table_original, rows):
-#     table = table_original.strip().strip('\n').strip('\n').split('\n')
-#     row = rows.split(" | ")
-#     ans_table = []
-#     for l in range(len(table)):
-#         line = table[l].strip().split(" | ")
-#         if (line[0] in row): 
-#             ans_table.append(table[l])
-#     return '\n'.join(ans_table) + '\n'
+def decompose_table_byrows(table_original, rows):
+    table = table_original.strip().strip('\n').strip('\n').split('\n')
+    row = rows.split(" | ")
+    ans_table = []
+    for l in range(len(table)):
+        line = table[l].strip().split(" | ")
+        if (line[0] in row): 
+            ans_table.append(table[l])
+    return '\n'.join(ans_table) + '\n'
 
 
 if __name__ == "__main__":
@@ -307,42 +300,56 @@ if __name__ == "__main__":
     for key in tqdm.tqdm(keys):
         entry = wikitableqa[key]
 
-        # question_og = entry['question']
-
-        # prompt_question = question_demonstration + '\n'
-        # prompt_question += 'Complex: ' + question_og + '\nSimple:'
-        
-        # response_q = openai.ChatCompletion.create(
-        #     model=args.model,
-        #     #   prompt=prompt,
-        #     temperature=0.7,
-        #     max_tokens=100,
-        #     top_p=1,
-        #     frequency_penalty=0,
-        #     presence_penalty=0,
-        #     messages=[{"role": "user", "content": prompt_question}]
-        # )
-
-        # question = response_q['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0]
-        # print(prompt_question)
-        # print(question)
-        # print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         question = entry['question']
         answer = entry['answer']
 
-        prompt_col = demonstration_columns[args.option] + '\n'
-        prompt_col += f'Read the table below regarding "{entry["title"]}" to choose relevant columns for the following questions.\n\n'
-        if 'davinci' in args.model:
-            prompt_col += '\n'.join(entry['table'].split('\n')[:15])
-        else:
-            prompt_col += entry['table'].split('\n')[0] + '\n' + entry['table'].split('\n')[1] + '\n' + '\n'
-        prompt_col += 'Question: ' + question + '\nAnswer:'
+        #### Formalizing the k-shot demonstration. #####
+        val = 0
+        table = entry['table'].strip().strip('\n').strip('\n').split('\n')
+        first_row_add = table[0].strip()
+        first_col = []
+        for l in range(len(table)):
+            line = table[l].strip().split(" | ")
+            first_col.append(line[0])
+        first_col_add = " | ".join(first_col)
+        prompt_v2 = prompt_row_or_column + "1. " + first_row_add + "\n2. " + first_col_add + "\nAnswer: "
+        # print(prompt_v2)
 
-        if args.dry_run:
-            print(prompt_col)
-            print('answer: ', answer)
-        else:
-            response = openai.ChatCompletion.create(
+        response_row_or_column = openai.ChatCompletion.create(
+            model=args.model,
+            #   prompt=prompt,
+            temperature=0.7,
+            max_tokens=100,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0,
+            messages=[{"role": "user", "content": prompt_v2}]
+        )
+        response_r_or_c = response_row_or_column['choices'][0]["message"]['content'].strip().strip("\n")
+       
+        #### Checking of choosing rows or columns
+        # print(response_r_or_c)
+        # if ("1" in response_r_or_c):
+        #     print("1 zaschitalo")
+        # else: 
+        #     print("2 zaschitalo")
+        # print("##########################")
+        # continue
+
+        if ("1" in response_r_or_c): # The first row contains titles
+            prompt_col = demonstration_columns[args.option] + '\n'
+            prompt_col += f'Read the table below regarding "{entry["title"]}" to choose relevant columns for the following questions.\n\n'
+            if 'davinci' in args.model:
+                prompt_col += '\n'.join(entry['table'].split('\n')[:15])
+            else:
+                prompt_col += entry['table'].split('\n')[0] + '\n' + entry['table'].split('\n')[1] + '\n' + '\n'
+            prompt_col += 'Question: ' + question + '\nAnswer:'
+
+            if args.dry_run:
+                print(prompt_col)
+                print('answer: ', answer)
+            else:
+                response = openai.ChatCompletion.create(
                 model=args.model,
                 #   prompt=prompt,
                 temperature=0.7,
@@ -351,38 +358,93 @@ if __name__ == "__main__":
                 frequency_penalty=0,
                 presence_penalty=0,
                 messages=[{"role": "user", "content": prompt_col}]
-            )
-            # print(response)
-            # continue
+                )
+                # print(response)
+                # continue
 
-            table_processed = decompose_table(entry['table'], response['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0])
-            # print(table_processed)
-            prompt = demonstration[args.option] + '\n'
-            prompt += f'Read the table below regarding "{entry["title"]}" to answer the following question.\n\n'
+                table_processed = decompose_table(entry['table'], response['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0])
+                # print(table_processed)
+                prompt = demonstration[args.option] + '\n'
+                prompt += f'Read the table below regarding "{entry["title"]}" to answer the following question.\n\n'
+                if 'davinci' in args.model:
+                    prompt += '\n'.join(entry['table'].split('\n')[:15]) #zabeite
+                else:
+                    prompt += table_processed + '\n'
+                prompt += 'Question: ' + question + '\nExplanation:'
+
+                print(prompt)
+                response222 = openai.ChatCompletion.create(
+                model=args.model,
+                #   prompt=prompt,
+                temperature=0.7,
+                max_tokens=100,
+                top_p=1,
+                frequency_penalty=0,
+                presence_penalty=0,
+                messages=[{"role": "user", "content": prompt}]
+                )
+                
+                print(response222['choices'][0]["message"]['content'])
+                response222 = '\t'.join(response222['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n'))
+
+                tmp = {'key': key, 'question': question, 'response': response222, 'answer': answer, 'table_id': entry['table_id']}
+
+                fw.write(json.dumps(tmp) + '\n')
+        else: # The first column contains titles
+            prompt_col = demonstration_rows[args.option] + '\n'
+            prompt_col += f'Read the table below regarding "{entry["title"]}" to choose relevant rows for the following questions.\n\n'
             if 'davinci' in args.model:
-                prompt += '\n'.join(entry['table'].split('\n')[:15]) #zabeite
+                prompt_col += '\n'.join(entry['table'].split('\n')[:15])
             else:
-                prompt += table_processed + '\n'
-            prompt += 'Question: ' + question + '\nExplanation:'
+                prompt_col += get_two_columns(entry['table']) + '\n' + '\n'
+                entry['table'].split('\n')[0] + '\n' + entry['table'].split('\n')[1] + '\n' + '\n'
+            prompt_col += 'Question: ' + question + '\nAnswer:'
 
-            print(prompt)
-            response222 = openai.ChatCompletion.create(
-            model=args.model,
-            #   prompt=prompt,
-            temperature=0.7,
-            max_tokens=100,
-            top_p=1,
-            frequency_penalty=0,
-            presence_penalty=0,
-            messages=[{"role": "user", "content": prompt}]
-            )
-            
-            print(response222['choices'][0]["message"]['content'])
-            response222 = '\t'.join(response222['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n'))
+            if args.dry_run:
+                print(prompt_col)
+                print('answer: ', answer)
+            else:
+                response = openai.ChatCompletion.create(
+                model=args.model,
+                #   prompt=prompt,
+                temperature=0.7,
+                max_tokens=100,
+                top_p=1,
+                frequency_penalty=0,
+                presence_penalty=0,
+                messages=[{"role": "user", "content": prompt_col}]
+                )
+                # print(response)
+                # continue
 
-            tmp = {'key': key, 'question': question, 'response': response222, 'answer': answer, 'table_id': entry['table_id']}
+                table_processed = decompose_table_byrows(entry['table'], response['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0])
+                # print(table_processed)
+                prompt = demonstration_row_type[args.option] + '\n'
+                prompt += f'Read the table below regarding "{entry["title"]}" to answer the following question.\n\n'
+                if 'davinci' in args.model:
+                    prompt += '\n'.join(entry['table'].split('\n')[:15]) #zabeite
+                else:
+                    prompt += table_processed + '\n'
+                prompt += 'Question: ' + question + '\nExplanation:'
 
-            fw.write(json.dumps(tmp) + '\n')
+                print(prompt)
+                response222 = openai.ChatCompletion.create(
+                model=args.model,
+                #   prompt=prompt,
+                temperature=0.7,
+                max_tokens=100,
+                top_p=1,
+                frequency_penalty=0,
+                presence_penalty=0,
+                messages=[{"role": "user", "content": prompt}]
+                )
+                
+                print(response222['choices'][0]["message"]['content'])
+                response222 = '\t'.join(response222['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n'))
+
+                tmp = {'key': key, 'question': question, 'response': response222, 'answer': answer, 'table_id': entry['table_id']}
+
+                fw.write(json.dumps(tmp) + '\n')
 
 
     if not args.dry_run:

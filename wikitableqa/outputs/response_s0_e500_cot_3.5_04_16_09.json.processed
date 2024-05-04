@@ -1,0 +1,500 @@
+{"key": "nu-0", "question": "Which country had the most cyclists in the top 10 finish?", "answer": "Italy", "table_id": "csv/203-csv/733.csv", "prediction": "Italy", "extracted": true}
+{"key": "nu-1", "question": "How many people were killed in 1940 and 1941?", "answer": "100,000", "table_id": "csv/204-csv/149.csv", "prediction": "856,000", "extracted": true}
+{"key": "nu-2", "question": "How many years did it take for the New York Americans to win the national cup after 1936?", "answer": "17 years", "table_id": "csv/203-csv/435.csv", "prediction": "3 years", "extracted": true}
+{"key": "nu-3", "question": "When did the next episode air after Alfie's birthday party on January 19th?", "answer": "January 26, 1995", "table_id": "csv/204-csv/803.csv", "prediction": "January 26th", "extracted": true}
+{"key": "nu-4", "question": "How many first place finishes are there in all events?", "answer": "17", "table_id": "csv/204-csv/272.csv", "prediction": "13", "extracted": true}
+{"key": "nu-5", "question": "Which competition did Hopley win first?", "answer": "World Junior Championships", "table_id": "csv/204-csv/483.csv", "prediction": "World Junior Championships", "direct": true}
+{"key": "nu-6", "question": "How many films are listed in the Kannada language?", "answer": "15", "table_id": "csv/203-csv/463.csv", "prediction": "16", "direct": true}
+{"key": "nu-7", "question": "How many people attended the Toros Mexico vs. Monterrey Flash game?", "answer": "363", "table_id": "csv/204-csv/875.csv", "prediction": "2,653", "extracted": true}
+{"key": "nu-8", "question": "When was there no shirt sponsor?", "answer": "1982-1985", "table_id": "csv/203-csv/329.csv", "prediction": "1982-1985", "extracted": true}
+{"key": "nu-9", "question": "When did he first get a 1st place record?", "answer": "2000", "table_id": "csv/203-csv/395.csv", "prediction": "World Junior Championships in 2000", "extracted": true}
+{"key": "nu-10", "question": "Which three years had the same record?", "answer": "2004|2005|2006", "table_id": "csv/204-csv/645.csv", "prediction": "1985, 1986, 1989", "extracted": true}
+{"key": "nu-11", "question": "Who has the highest total, Pat or John?", "answer": "John", "table_id": "csv/204-csv/925.csv", "prediction": "John", "extracted": true}
+{"key": "nu-12", "question": "What was the total score of rankings before 2009?", "answer": "440", "table_id": "csv/203-csv/381.csv", "prediction": "440", "extracted": true}
+{"key": "nu-13", "question": "How many extra ships wrecked in Lake Huron compared to Erie?", "answer": "7", "table_id": "csv/204-csv/797.csv", "prediction": "7", "extracted": true}
+{"key": "nu-14", "question": "Which character has a blank c string?", "answer": "space", "table_id": "csv/203-csv/128.csv", "prediction": "space", "extracted": true}
+{"key": "nu-15", "question": "How many points did the Tide score in the last 3 games altogether?", "answer": "68", "table_id": "csv/203-csv/62.csv", "prediction": "59", "extracted": true}
+{"key": "nu-16", "question": "Who finished the race right after Sebastian Porto?", "answer": "Tomomi Manako", "table_id": "csv/204-csv/892.csv", "prediction": "Tomomi Manako", "extracted": true}
+{"key": "nu-17", "question": "How many festivals happened in October?", "answer": "5", "table_id": "csv/203-csv/402.csv", "prediction": "5", "extracted": true}
+{"key": "nu-18", "question": "Which hospital has 6 hospital beds?", "answer": "Vidant Bertie Hospital", "table_id": "csv/203-csv/319.csv", "prediction": "Vidant Bertie Hospital", "extracted": true}
+{"key": "nu-19", "question": "How many Skoda cars were sold in 2005?", "answer": "492,111", "table_id": "csv/204-csv/21.csv", "prediction": "492,111", "extracted": true}
+{"key": "nu-20", "question": "How many times was the game won on grass?", "answer": "1", "table_id": "csv/204-csv/758.csv", "prediction": "1", "direct": true}
+{"key": "nu-21", "question": "Who got the most gold medals?", "answer": "Brazil", "table_id": "csv/204-csv/76.csv", "prediction": "Brazil", "direct": true}
+{"key": "nu-22", "question": "total wins by Belgian riders", "answer": "7", "table_id": "csv/204-csv/417.csv", "prediction": "7", "extracted": true}
+{"key": "nu-23", "question": "Which yacht had a faster time than Ausmaid?", "answer": "Brindabella", "table_id": "csv/203-csv/286.csv", "prediction": "Brindabella", "extracted": true}
+{"key": "nu-24", "question": "Which match is next after gl-b-5?", "answer": "GL-B-6", "table_id": "csv/204-csv/896.csv", "prediction": "GL-B-6", "extracted": true}
+{"key": "nu-25", "question": "How many times was Amanda a judge?", "answer": "3", "table_id": "csv/203-csv/178.csv", "prediction": "8", "extracted": true}
+{"key": "nu-26", "question": "How many awards has Leona Lewis received?", "answer": "20", "table_id": "csv/203-csv/63.csv", "prediction": "19", "extracted": true}
+{"key": "nu-27", "question": "Who scored the most in the last season?", "answer": "Simon Makienok Christoffersen", "table_id": "csv/203-csv/307.csv", "prediction": "Peter Madsen", "extracted": true}
+{"key": "nu-28", "question": "How many people were on the jury?", "answer": "9", "table_id": "csv/204-csv/827.csv", "prediction": "9", "extracted": true}
+{"key": "nu-29", "question": "How many times was the location in Val d'Isere, France used?", "answer": "1", "table_id": "csv/203-csv/779.csv", "prediction": "Twice", "extracted": true}
+{"key": "nu-30", "question": "What name is before Mount Pleasant on the list?", "answer": "Pennsylvania Avenue Metro Extra Line", "table_id": "csv/204-csv/50.csv", "prediction": "Pennsylvania Avenue Metro Extra Line", "extracted": true}
+{"key": "nu-31", "question": "Which stadium is the final one on this chart?", "answer": "DW Stadium", "table_id": "csv/204-csv/440.csv", "prediction": "Old Trafford", "extracted": true}
+{"key": "nu-32", "question": "How many first place wins does Salvatore Bettiol have in competitions?", "answer": "2", "table_id": "csv/204-csv/92.csv", "prediction": "2", "direct": true}
+{"key": "nu-33", "question": "In which year did Illinois not lose any conference games?", "answer": "1914-15", "table_id": "csv/204-csv/640.csv", "prediction": "1914-15", "extracted": true}
+{"key": "nu-34", "question": "How tall is Natalia Varnakova compared to the other contestants?", "answer": "Jahaira Novgorodova|Carmen Jenockova|Mariesea Mnesi\u010du|Patricia Valiahmetova|Anastasija Larkova", "table_id": "csv/203-csv/825.csv", "prediction": "tied for the third tallest contestant", "extracted": true}
+{"key": "nu-35", "question": "How many candidates are not from the Republican or Democrat party?", "answer": "0", "table_id": "csv/203-csv/432.csv", "prediction": "2", "extracted": true}
+{"key": "nu-36", "question": "How many competitions were outside the United Kingdom?", "answer": "4", "table_id": "csv/204-csv/272.csv", "prediction": "4", "extracted": true}
+{"key": "nu-37", "question": "How many routes from Houston Intercontinental does United fly domestically?", "answer": "10", "table_id": "csv/201-csv/47.csv", "prediction": "8", "direct": true}
+{"key": "nu-38", "question": "How many Germans are there in total?", "answer": "2", "table_id": "csv/204-csv/417.csv", "prediction": "2", "extracted": true}
+{"key": "nu-39", "question": "When were the first giant slalom results recorded?", "answer": "2005", "table_id": "csv/203-csv/170.csv", "prediction": "2005", "extracted": true}
+{"key": "nu-40", "question": "How many contestants over 20 were in cycle 4 of Austria's Next Top Model?", "answer": "5", "table_id": "csv/204-csv/138.csv", "prediction": "4", "extracted": true}
+{"key": "nu-41", "question": "Did Clint Dempsey or Eric Wynalda score more goals?", "answer": "Clint Dempsey", "table_id": "csv/204-csv/410.csv", "prediction": "Clint Dempsey", "extracted": true}
+{"key": "nu-42", "question": "Which building in Germany is the shortest?", "answer": "St. Mary's Church", "table_id": "csv/203-csv/39.csv", "prediction": "Strasbourg Cathedral", "extracted": true}
+{"key": "nu-43", "question": "What party, other than Republican and Democrat, was in the Maine election?", "answer": "Independent", "table_id": "csv/204-csv/943.csv", "prediction": "Independent party", "extracted": true}
+{"key": "nu-44", "question": "In which year did the team win the most games?", "answer": "1992", "table_id": "csv/204-csv/8.csv", "prediction": "1926", "direct": true}
+{"key": "nu-45", "question": "How many deaths occurred in 1939/1940?", "answer": "504,000", "table_id": "csv/204-csv/149.csv", "prediction": "504,000", "direct": true}
+{"key": "nu-46", "question": "How many models are listed in the table?", "answer": "20", "table_id": "csv/203-csv/690.csv", "prediction": "20", "extracted": true}
+{"key": "nu-47", "question": "How many wins does the Jaguar XJS have?", "answer": "7", "table_id": "csv/204-csv/458.csv", "prediction": "0", "extracted": true}
+{"key": "nu-48", "question": "Peru is not the only nation to win 2 bronze medals.", "answer": "Chile|Ecuador", "table_id": "csv/204-csv/76.csv", "prediction": "False", "extracted": true}
+{"key": "nu-49", "question": "How many games in a row were played against Millwall?", "answer": "1", "table_id": "csv/204-csv/857.csv", "prediction": "Two", "extracted": true}
+{"key": "nu-50", "question": "Which other team is ranked 23rd, in addition to the Angola racing team?", "answer": "Carlin", "table_id": "csv/204-csv/424.csv", "prediction": "Carlin", "extracted": true}
+{"key": "nu-51", "question": "Which countries made at least $1 billion in box office revenue?", "answer": "10", "table_id": "csv/203-csv/448.csv", "prediction": "11 countries", "direct": true}
+{"key": "nu-52", "question": "What city is home to a radio station named The Wolf?", "answer": "Yankton", "table_id": "csv/200-csv/18.csv", "prediction": "Yankton", "extracted": true}
+{"key": "nu-53", "question": "When did Kodak first start making 16mm film?", "answer": "1935", "table_id": "csv/200-csv/24.csv", "prediction": "1935", "extracted": true}
+{"key": "nu-54", "question": "Who won the first race in the 2009 Fujitsu V8 Supercar season?", "answer": "David Russell", "table_id": "csv/204-csv/714.csv", "prediction": "David Russell", "extracted": true}
+{"key": "nu-55", "question": "Which competition took place in Berlin and Daegu?", "answer": "World Championships", "table_id": "csv/203-csv/556.csv", "prediction": "World Championships", "extracted": true}
+{"key": "nu-56", "question": "How many cars were sold in 2001?", "answer": "460,252", "table_id": "csv/204-csv/21.csv", "prediction": "460,252", "extracted": true}
+{"key": "nu-57", "question": "Which type of plane was encountered the least?", "answer": "Mig-15", "table_id": "csv/204-csv/434.csv", "prediction": "Mig-15", "extracted": true}
+{"key": "nu-58", "question": "Who won first place?", "answer": "Esther Shahamorov", "table_id": "csv/203-csv/0.csv", "prediction": "Unknown", "extracted": true}
+{"key": "nu-59", "question": "Was the prize money higher on January 23, 1984 than on April 23, 1984?", "answer": "no", "table_id": "csv/203-csv/596.csv", "prediction": "No", "extracted": true}
+{"key": "nu-60", "question": "What was the only race in 2011?", "answer": "Giant Slalom", "table_id": "csv/203-csv/779.csv", "prediction": "Giant Slalom", "extracted": true}
+{"key": "nu-61", "question": "Which position is the most common on this chart?", "answer": "S", "table_id": "csv/203-csv/544.csv", "prediction": "WR (Wide Receiver)", "extracted": true}
+{"key": "nu-62", "question": "What degrees did M. Shafi Ahmad and Abdul Majid have?", "answer": "Ph.D", "table_id": "csv/204-csv/720.csv", "prediction": "Ph.D", "extracted": true}
+{"key": "nu-63", "question": "How many photos are listed in total?", "answer": "18", "table_id": "csv/204-csv/559.csv", "prediction": "18", "extracted": true}
+{"key": "nu-64", "question": "How many times was \"first\" listed in this chart?", "answer": "5", "table_id": "csv/203-csv/395.csv", "prediction": "3", "extracted": true}
+{"key": "nu-65", "question": "Who was the candidate before Anastasija Nindova?", "answer": "Alissa Joanndova", "table_id": "csv/203-csv/825.csv", "prediction": "Alissa Joanndova", "extracted": true}
+{"key": "nu-66", "question": "What is the date after June 14, 2010?", "answer": "December 6, 2010", "table_id": "csv/203-csv/714.csv", "prediction": "September 6, 2010", "extracted": true}
+{"key": "nu-67", "question": "How many tournaments were held in the United States?", "answer": "1", "table_id": "csv/204-csv/331.csv", "prediction": "Two", "extracted": true}
+{"key": "nu-68", "question": "How many drivers have not led any laps?", "answer": "18", "table_id": "csv/204-csv/578.csv", "prediction": "18 drivers", "extracted": true}
+{"key": "nu-69", "question": "Who replaced the lord high steward?", "answer": "Justiciar", "table_id": "csv/204-csv/368.csv", "prediction": "Justiciar", "extracted": true}
+{"key": "nu-70", "question": "Who did Kristyna Pliskova play doubles with in her first pro tournament?", "answer": "Karol\u00edna Pl\u00ed\u0161kov\u00e1", "table_id": "csv/204-csv/331.csv", "prediction": "Karol\u00edna Pl\u00ed\u0161kov\u00e1", "extracted": true}
+{"key": "nu-71", "question": "How many fullback positions were chosen?", "answer": "2", "table_id": "csv/204-csv/519.csv", "prediction": "Two", "extracted": true}
+{"key": "nu-72", "question": "Which year had the lowest toy sales?", "answer": "2003", "table_id": "csv/203-csv/66.csv", "prediction": "Cannot be determined without additional information.", "extracted": true}
+{"key": "nu-73", "question": "How many partners does TV Azteca have in total?", "answer": "9", "table_id": "csv/204-csv/181.csv", "prediction": "9", "direct": true}
+{"key": "nu-74", "question": "How many times did the team come in 5th place?", "answer": "3", "table_id": "csv/203-csv/428.csv", "prediction": "3", "direct": true}
+{"key": "nu-75", "question": "Did the team score at least 30 points in any games?", "answer": "4", "table_id": "csv/204-csv/993.csv", "prediction": "yes", "direct": true}
+{"key": "nu-76", "question": "Did he race more laps in 1926 or 1938?", "answer": "1926", "table_id": "csv/203-csv/647.csv", "prediction": "1926", "extracted": true}
+{"key": "nu-77", "question": "How many people attended Gamestorm 11?", "answer": "736", "table_id": "csv/203-csv/575.csv", "prediction": "1188", "extracted": true}
+{"key": "nu-78", "question": "Who comes after Scott Dixon on the list of drivers?", "answer": "Mike Conway", "table_id": "csv/204-csv/366.csv", "prediction": "Mike Conway", "extracted": true}
+{"key": "nu-79", "question": "Where did Melissa Morrison compete in 2004?", "answer": "Athens, Greece", "table_id": "csv/203-csv/259.csv", "prediction": "Olympic Games in Athens, Greece", "extracted": true}
+{"key": "nu-80", "question": "How many times does the chart list \"professional writer\" as the profession?", "answer": "3", "table_id": "csv/203-csv/458.csv", "prediction": "6", "direct": true}
+{"key": "nu-81", "question": "How many listings are there in Barrington, Farmington, and Rochester altogether?", "answer": "5", "table_id": "csv/203-csv/422.csv", "prediction": "10", "extracted": true}
+{"key": "nu-82", "question": "How many teams did not score in the 2006 season?", "answer": "1", "table_id": "csv/203-csv/483.csv", "prediction": "3 teams", "direct": true}
+{"key": "nu-83", "question": "Who won?", "answer": "Doriano Romboni", "table_id": "csv/204-csv/303.csv", "prediction": "Max Biaggi", "extracted": true}
+{"key": "nu-84", "question": "Which team is listed after Widnes Vikings?", "answer": "Wigan Warriors", "table_id": "csv/204-csv/440.csv", "prediction": "Wigan Warriors", "extracted": true}
+{"key": "nu-85", "question": "At how many festivals was the film shown?", "answer": "14", "table_id": "csv/203-csv/402.csv", "prediction": "14 festivals", "extracted": true}
+{"key": "nu-86", "question": "How many drivers finished 80 laps?", "answer": "4", "table_id": "csv/204-csv/953.csv", "prediction": "Four", "extracted": true}
+{"key": "nu-87", "question": "Which five-year period had over 100,000 deaths first?", "answer": "1965-1970", "table_id": "csv/203-csv/588.csv", "prediction": "1965-1970", "extracted": true}
+{"key": "nu-88", "question": "What country are the Kremlin Cup and St. Petersburg Open in?", "answer": "Russia", "table_id": "csv/203-csv/388.csv", "prediction": "Russia", "extracted": true}
+{"key": "nu-89", "question": "How many gold medals did Australia and Switzerland win in total?", "answer": "2", "table_id": "csv/203-csv/351.csv", "prediction": "2", "extracted": true}
+{"key": "nu-90", "question": "How many sizes have an inner diameter larger than 50 mm?", "answer": "2", "table_id": "csv/204-csv/142.csv", "prediction": "1", "direct": true}
+{"key": "nu-91", "question": "Which country has more circuits?", "answer": "USA", "table_id": "csv/204-csv/458.csv", "prediction": "United States", "extracted": true}
+{"key": "nu-92", "question": "Did Brazil and the United States win the most gold medals?", "answer": "Yes", "table_id": "csv/204-csv/509.csv", "prediction": "Brazil and the United States", "extracted": true}
+{"key": "nu-93", "question": "What year did he lead the most laps in?", "answer": "1928", "table_id": "csv/203-csv/647.csv", "prediction": "1928", "extracted": true}
+{"key": "nu-94", "question": "How many games were played after October 1st?", "answer": "11", "table_id": "csv/203-csv/582.csv", "prediction": "16 games", "extracted": true}
+{"key": "nu-95", "question": "How many wins does the United States have listed?", "answer": "22", "table_id": "csv/204-csv/369.csv", "prediction": "24", "extracted": true}
+{"key": "nu-96", "question": "What would be the total box office revenues if Italy and Brazil combined?", "answer": "$1.56 billion", "table_id": "csv/203-csv/448.csv", "prediction": "$1.56 billion", "extracted": true}
+{"key": "nu-97", "question": "When did the Verre restaurant at the Hilton Dubai Creek close?", "answer": "October 2011", "table_id": "csv/202-csv/93.csv", "prediction": "October 2011", "extracted": true}
+{"key": "nu-98", "question": "Who finished right after Danny Osborne?", "answer": "Mike Imrie", "table_id": "csv/204-csv/955.csv", "prediction": "Mike Imrie", "extracted": true}
+{"key": "nu-99", "question": "Where is Saint Anslem School?", "answer": "Chester Township, Ohio", "table_id": "csv/200-csv/8.csv", "prediction": "Chester Township, Ohio", "extracted": true}
+{"key": "nu-100", "question": "Who has the same number as Greg Foster?", "answer": "Kyrylo Fesenko", "table_id": "csv/203-csv/820.csv", "prediction": "Kyrylo Fesenko", "extracted": true}
+{"key": "nu-101", "question": "What other single was released in 1964 besides \"Th' Wife\"?", "answer": "Blue Train (Of the Heartbreak Line)", "table_id": "csv/203-csv/619.csv", "prediction": "Blue Train (Of the Heartbreak Line)", "extracted": true}
+{"key": "nu-102", "question": "Who got voted out first?", "answer": "Yelena Kondulaynen", "table_id": "csv/204-csv/827.csv", "prediction": "Yelena Kondulaynen", "extracted": true}
+{"key": "nu-103", "question": "What is the name of the circuit before Portland?", "answer": "Westwood", "table_id": "csv/204-csv/458.csv", "prediction": "Westwood", "extracted": true}
+{"key": "nu-104", "question": "How long does the Swiss Open series last?", "answer": "6 days", "table_id": "csv/204-csv/46.csv", "prediction": "7 days", "extracted": true}
+{"key": "nu-105", "question": "Who was the only racer who didn't finish the final lap?", "answer": "Henk Van De Lagemaat", "table_id": "csv/204-csv/892.csv", "prediction": "Henk Van De Lagemaat", "extracted": true}
+{"key": "nu-106", "question": "When was the last time Leonor Piuza competed in a race?", "answer": "2011", "table_id": "csv/204-csv/315.csv", "prediction": "2011 at the All-Africa Games", "extracted": true}
+{"key": "nu-107", "question": "Which continent is at the top of the table?", "answer": "Africa", "table_id": "csv/203-csv/666.csv", "prediction": "Europe", "extracted": true}
+{"key": "nu-108", "question": "In which year did the team win the co-championship title?", "answer": "1939/40", "table_id": "csv/203-csv/284.csv", "prediction": "1939/40", "extracted": true}
+{"key": "nu-109", "question": "How many people died in 2003?", "answer": "11", "table_id": "csv/203-csv/66.csv", "prediction": "11", "extracted": true}
+{"key": "nu-110", "question": "How many hard surface courts are there?", "answer": "3", "table_id": "csv/204-csv/285.csv", "prediction": "2", "extracted": true}
+{"key": "nu-111", "question": "What was the lowest amount of points scored in a season?", "answer": "0", "table_id": "csv/203-csv/508.csv", "prediction": "0 points", "extracted": true}
+{"key": "nu-112", "question": "How many specifications don't have active directory federation services?", "answer": "1", "table_id": "csv/204-csv/134.csv", "prediction": "1", "direct": true}
+{"key": "nu-113", "question": "In how many major races has Melissa Morrison-Howard come in first place?", "answer": "3", "table_id": "csv/203-csv/259.csv", "prediction": "4", "extracted": true}
+{"key": "nu-114", "question": "How many distributions work with the x86 architecture?", "answer": "29", "table_id": "csv/203-csv/477.csv", "prediction": "19 distributions", "extracted": true}
+{"key": "nu-115", "question": "Who was the only player from Westmeath County?", "answer": "Se\u00e1n McLoughlin", "table_id": "csv/204-csv/505.csv", "prediction": "Se\u00e1n McLoughlin", "extracted": true}
+{"key": "nu-116", "question": "Are the dates in order?", "answer": "yes", "table_id": "csv/204-csv/818.csv", "prediction": "No", "extracted": true}
+{"key": "nu-117", "question": "What is the name at the top of the chart?", "answer": "Joel Smith", "table_id": "csv/204-csv/83.csv", "prediction": "Joel Smith", "extracted": true}
+{"key": "nu-118", "question": "Which date had the highest number of people attending?", "answer": "October 17", "table_id": "csv/203-csv/708.csv", "prediction": "October 17", "direct": true}
+{"key": "nu-119", "question": "How many points did Fulham and Stoke City win with?", "answer": "3", "table_id": "csv/203-csv/567.csv", "prediction": "3 points for each team", "direct": true}
+{"key": "nu-120", "question": "How many times did the team not make it to the playoffs?", "answer": "6", "table_id": "csv/203-csv/428.csv", "prediction": "8", "direct": true}
+{"key": "nu-121", "question": "Which country came in first place the most?", "answer": "France", "table_id": "csv/204-csv/165.csv", "prediction": "France", "direct": true}
+{"key": "nu-122", "question": "How many designers do not have a publication?", "answer": "6", "table_id": "csv/203-csv/205.csv", "prediction": "4", "extracted": true}
+{"key": "nu-123", "question": "What were the top labels?", "answer": "Becket", "table_id": "csv/203-csv/480.csv", "prediction": "Becket, Spring", "extracted": true}
+{"key": "nu-124", "question": "How many seasons were played?", "answer": "10", "table_id": "csv/203-csv/624.csv", "prediction": "9", "extracted": true}
+{"key": "nu-125", "question": "Which party held office the longest?", "answer": "Republican", "table_id": "csv/203-csv/194.csv", "prediction": "the Democrat party", "direct": true}
+{"key": "nu-126", "question": "Which country is first?", "answer": "United States", "table_id": "csv/204-csv/150.csv", "prediction": "United States", "extracted": true}
+{"key": "nu-127", "question": "Did a man win last year?", "answer": "2010-11", "table_id": "csv/203-csv/427.csv", "prediction": "Yes", "extracted": true}
+{"key": "nu-128", "question": "On which date were there the fewest attendees?", "answer": "27 August 2005", "table_id": "csv/203-csv/143.csv", "prediction": "2 January 2006", "direct": true}
+{"key": "nu-129", "question": "How many away games did they win?", "answer": "7", "table_id": "csv/203-csv/361.csv", "prediction": "4", "extracted": true}
+{"key": "nu-130", "question": "How many subjects are listed?", "answer": "25", "table_id": "csv/203-csv/87.csv", "prediction": "24", "extracted": true}
+{"key": "nu-131", "question": "Which manufacturer did the best racer use?", "answer": "Honda", "table_id": "csv/204-csv/892.csv", "prediction": "Aprilia", "direct": true}
+{"key": "nu-132", "question": "How many have a water level below 240cm?", "answer": "22", "table_id": "csv/203-csv/261.csv", "prediction": "19", "direct": true}
+{"key": "nu-133", "question": "Which other American city hosted the event, besides Seattle?", "answer": "Los Angeles", "table_id": "csv/204-csv/224.csv", "prediction": "Los Angeles", "extracted": true}
+{"key": "nu-134", "question": "Is the first substance used in a hydroxyalkyl typically a halogenoalkane or an epoxide?", "answer": "Epoxides", "table_id": "csv/203-csv/162.csv", "prediction": "halogenoalkane", "extracted": true}
+{"key": "nu-135", "question": "How many matches had over 8,000 attendees?", "answer": "6", "table_id": "csv/204-csv/908.csv", "prediction": "3", "extracted": true}
+{"key": "nu-136", "question": "Which note is common between the chords E minor major seventh and A minor major seventh?", "answer": "E", "table_id": "csv/204-csv/653.csv", "prediction": "G", "extracted": true}
+{"key": "nu-137", "question": "How many people scored at least 460 points on their final score?", "answer": "6", "table_id": "csv/203-csv/373.csv", "prediction": "4", "direct": true}
+{"key": "nu-138", "question": "How long was the Great Pyramid of Giza the tallest freestanding structure?", "answer": "3881", "table_id": "csv/203-csv/39.csv", "prediction": "1259 years", "direct": true}
+{"key": "nu-139", "question": "How many websites have no ads?", "answer": "9", "table_id": "csv/204-csv/372.csv", "prediction": "7", "direct": true}
+{"key": "nu-140", "question": "Which country had the most participants?", "answer": "Italy", "table_id": "csv/204-csv/462.csv", "prediction": "France", "direct": true}
+{"key": "nu-141", "question": "How many wins did the Citadel Bulldogs have before 1908?", "answer": "6", "table_id": "csv/204-csv/8.csv", "prediction": "6", "direct": true}
+{"key": "nu-142", "question": "When did the toll for class 1 first exceed 2.00?", "answer": "14 June 2005", "table_id": "csv/203-csv/389.csv", "prediction": "1 January 2009", "extracted": true}
+{"key": "nu-143", "question": "How many conferences received 2 bids?", "answer": "9", "table_id": "csv/203-csv/605.csv", "prediction": "10", "direct": true}
+{"key": "nu-144", "question": "What was the most recent historical place listed in Strafford County, New Hampshire?", "answer": "Samuel Wyatt House", "table_id": "csv/203-csv/422.csv", "prediction": "Rochester Commercial and Industrial District", "extracted": true}
+{"key": "nu-145", "question": "Who scored as many league goals this season as Gregory Nelson?", "answer": "Giuseppe Aquaro", "table_id": "csv/204-csv/744.csv", "prediction": "Giuseppe Aquaro", "direct": true}
+{"key": "nu-146", "question": "What comes after \"like that\"?", "answer": "Call It What You Want", "table_id": "csv/203-csv/49.csv", "prediction": "Call It What You Want", "extracted": true}
+{"key": "nu-147", "question": "How many gold medals did South Korea win?", "answer": "0", "table_id": "csv/204-csv/682.csv", "prediction": "0", "direct": true}
+{"key": "nu-148", "question": "What other competition was held in Beijing after the 2006 World Junior Championships?", "answer": "Olympic Games", "table_id": "csv/203-csv/556.csv", "prediction": "Olympic Games", "extracted": true}
+{"key": "nu-149", "question": "How many points did Fram have in total?", "answer": "17", "table_id": "csv/203-csv/53.csv", "prediction": "17", "extracted": true}
+{"key": "nu-150", "question": "Who was the president that lived longest before John Adams?", "answer": "George Washington", "table_id": "csv/203-csv/260.csv", "prediction": "James Madison", "extracted": true}
+{"key": "nu-151", "question": "How many years passed between the construction of the Levanger church and the Bamberg church?", "answer": "96", "table_id": "csv/202-csv/175.csv", "prediction": "96 years", "extracted": true}
+{"key": "nu-152", "question": "How many players scored at least 1 goal in the friendly match?", "answer": "10", "table_id": "csv/204-csv/241.csv", "prediction": "10", "extracted": true}
+{"key": "nu-153", "question": "Find the average percentage of each choice.", "answer": "48.4%|22.52%|25.29%|3.79%", "table_id": "csv/204-csv/116.csv", "prediction": "The average percentage for N. Anastasiades is 36.4%.", "extracted": true}
+{"key": "nu-154", "question": "How many silver medals did Macau win?", "answer": "16", "table_id": "csv/203-csv/811.csv", "prediction": "16", "extracted": true}
+{"key": "nu-155", "question": "How many movies are on the list?", "answer": "23", "table_id": "csv/204-csv/377.csv", "prediction": "24", "extracted": true}
+{"key": "nu-156", "question": "Which driver completed at least 50 laps in last place?", "answer": "Jacques Villeneuve", "table_id": "csv/202-csv/66.csv", "prediction": "Jacques Villeneuve", "direct": true}
+{"key": "nu-157", "question": "How many drivers got over 2 points at the 2003 Grand Prix of Monterey?", "answer": "10", "table_id": "csv/203-csv/659.csv", "prediction": "7", "extracted": true}
+{"key": "nu-158", "question": "How many flybys have been done for Halley's Comet?", "answer": "6", "table_id": "csv/202-csv/81.csv", "prediction": "3", "direct": true}
+{"key": "nu-159", "question": "How many years does the table cover?", "answer": "16", "table_id": "csv/204-csv/972.csv", "prediction": "16", "direct": true}
+{"key": "nu-160", "question": "How many races happened after August?", "answer": "6", "table_id": "csv/203-csv/181.csv", "prediction": "5", "direct": true}
+{"key": "nu-161", "question": "Which country has won more gold medals than South Korea?", "answer": "Malaysia", "table_id": "csv/204-csv/594.csv", "prediction": "Malaysia", "extracted": true}
+{"key": "nu-162", "question": "Which schools are part of the Roman Catholic Diocese of Cleveland?", "answer": "4", "table_id": "csv/200-csv/8.csv", "prediction": "Notre Dame-Cathedral Latin, Saint Anselm School, Saint Helen's School, and Saint Mary's School", "extracted": true}
+{"key": "nu-163", "question": "How many medals did Guyana win in the competition?", "answer": "1", "table_id": "csv/204-csv/76.csv", "prediction": "1", "direct": true}
+{"key": "nu-164", "question": "How many titles had 3 acts and a prologue listed?", "answer": "2", "table_id": "csv/204-csv/271.csv", "prediction": "2", "direct": true}
+{"key": "nu-165", "question": "Who finished the cycling race first?", "answer": "Alejandro Valverde", "table_id": "csv/203-csv/733.csv", "prediction": "Alejandro Valverde", "extracted": true}
+{"key": "nu-166", "question": "Which book was the first one published by Harper & Brothers from 1903 to 1923?", "answer": "The Heritage of the Desert", "table_id": "csv/203-csv/488.csv", "prediction": "The Heritage of the Desert", "extracted": true}
+{"key": "nu-167", "question": "Which song was number one on the club play singles list?", "answer": "Thanks to You", "table_id": "csv/203-csv/480.csv", "prediction": "Thanks to You", "extracted": true}
+{"key": "nu-168", "question": "When did a judge or official start officiating the Olympic oath for the first time?", "answer": "1972", "table_id": "csv/203-csv/772.csv", "prediction": "1972 Winter Olympics", "extracted": true}
+{"key": "nu-169", "question": "How many circuits are there in total?", "answer": "10", "table_id": "csv/204-csv/458.csv", "prediction": "10", "direct": true}
+{"key": "nu-170", "question": "Where did she win first place for the first time?", "answer": "Doha, Qatar", "table_id": "csv/203-csv/65.csv", "prediction": "Asian Games in Doha, Qatar", "extracted": true}
+{"key": "nu-171", "question": "How many medals did Australia win in total?", "answer": "3", "table_id": "csv/203-csv/351.csv", "prediction": "3", "extracted": true}
+{"key": "nu-172", "question": "How many times did this racer not complete the race?", "answer": "4", "table_id": "csv/204-csv/995.csv", "prediction": "5", "direct": true}
+{"key": "nu-173", "question": "Did Hillary Clinton or John McCain get 51% of the vote in the March 31, 2008 Rasmussen Reports poll?", "answer": "John McCain", "table_id": "csv/203-csv/662.csv", "prediction": "John McCain", "extracted": true}
+{"key": "nu-174", "question": "Which country has the highest population?", "answer": "Canada", "table_id": "csv/204-csv/390.csv", "prediction": "Cannot be determined.", "extracted": true}
+{"key": "nu-175", "question": "How many points did Norway score compared to Sweden?", "answer": "6", "table_id": "csv/203-csv/852.csv", "prediction": "6", "extracted": true}
+{"key": "nu-176", "question": "How many teams were in the championship game?", "answer": "2", "table_id": "csv/203-csv/605.csv", "prediction": "Two", "extracted": true}
+{"key": "nu-177", "question": "Were there more episodes shown in 1967 or 1968?", "answer": "1967", "table_id": "csv/203-csv/740.csv", "prediction": "1967", "extracted": true}
+{"key": "nu-178", "question": "Who is playing above Kari Kanervo?", "answer": "Left Wing", "table_id": "csv/203-csv/566.csv", "prediction": "Johan Mellstrom", "extracted": true}
+{"key": "nu-179", "question": "Before November 15, 2007, how often was the overall rank in the 30s?", "answer": "3", "table_id": "csv/203-csv/328.csv", "prediction": "5", "direct": true}
+{"key": "nu-180", "question": "What comes after radium on the periodic table?", "answer": "Actinium", "table_id": "csv/203-csv/599.csv", "prediction": "Actinium (Ac)", "extracted": true}
+{"key": "nu-181", "question": "How many games were played at the Stadium of Light?", "answer": "19", "table_id": "csv/203-csv/143.csv", "prediction": "13 games", "extracted": true}
+{"key": "nu-182", "question": "Which year had the best results?", "answer": "2009", "table_id": "csv/204-csv/393.csv", "prediction": "2009", "extracted": true}
+{"key": "nu-183", "question": "How many people attended the first 10 games this season?", "answer": "76,000", "table_id": "csv/204-csv/908.csv", "prediction": "66,500 attendees", "direct": true}
+{"key": "nu-184", "question": "Who is the only player to score between 18 and 20 goals?", "answer": "Eddie Johnson", "table_id": "csv/204-csv/410.csv", "prediction": "Jozy Altidore", "extracted": true}
+{"key": "nu-185", "question": "Which country has the most forwards on their team?", "answer": "United States", "table_id": "csv/203-csv/820.csv", "prediction": "United States", "direct": true}
+{"key": "nu-186", "question": "Where was the only 100 m hurdle held in 1997?", "answer": "Indianapolis, United States", "table_id": "csv/203-csv/259.csv", "prediction": "Monaco", "extracted": true}
+{"key": "nu-187", "question": "How many episodes were shown before December 1, 1965?", "answer": "10", "table_id": "csv/203-csv/315.csv", "prediction": "N/A", "extracted": true}
+{"key": "nu-188", "question": "How many goals were scored in the game between Haiti and South Korea on September 6, 2013?", "answer": "5", "table_id": "csv/204-csv/904.csv", "prediction": "5 goals", "extracted": true}
+{"key": "nu-189", "question": "How many times did Brent Christensen visit Europe?", "answer": "5", "table_id": "csv/203-csv/307.csv", "prediction": "8", "extracted": true}
+{"key": "nu-190", "question": "What was the latest film made by Lars von Trier?", "answer": "Nymphomaniac: Volume II", "table_id": "csv/203-csv/641.csv", "prediction": "Nymphomaniac: Volume II", "extracted": true}
+{"key": "nu-191", "question": "Which mountain peak is the highest in feet?", "answer": "Volc\u00e1n Tajumulco PB", "table_id": "csv/203-csv/626.csv", "prediction": "Volc\u00e1n Tajumulco", "extracted": true}
+{"key": "nu-192", "question": "Which team(s) only won once or less?", "answer": "Doug Shierson Racing", "table_id": "csv/203-csv/181.csv", "prediction": "Doug Shierson Racing and Newman/Haas Racing", "extracted": true}
+{"key": "nu-193", "question": "Which episode was the first one where the Iron Chef did not win?", "answer": "5", "table_id": "csv/204-csv/86.csv", "prediction": "Episode 5", "extracted": true}
+{"key": "nu-194", "question": "How many years did Charlie Sheen not receive a nomination after 2008?", "answer": "2 years", "table_id": "csv/203-csv/709.csv", "prediction": "2 years", "direct": true}
+{"key": "nu-195", "question": "Which country won more medals than Austria?", "answer": "Soviet Union", "table_id": "csv/203-csv/585.csv", "prediction": "Sweden", "direct": true}
+{"key": "nu-196", "question": "Which driver who won was not from the US?", "answer": "Ludwig Heimrath", "table_id": "csv/204-csv/458.csv", "prediction": "Ludwig Heimrath", "direct": true}
+{"key": "nu-197", "question": "Where did Marcos Pizzelli score his first international goal in 2008?", "answer": "Sheriff Stadium, Tiraspol, Moldova", "table_id": "csv/203-csv/722.csv", "prediction": "Hanrapetakan Stadium in Yerevan, Armenia", "extracted": true}
+{"key": "nu-198", "question": "Did Inoue win Best Actress or the Newcomer Award in the 16th Hashida Awards?", "answer": "Newcomer Award", "table_id": "csv/204-csv/407.csv", "prediction": "Newcomer Award", "extracted": true}
+{"key": "nu-199", "question": "In what year did Tasmania win the men's division for a state or territory?", "answer": "2001", "table_id": "csv/204-csv/656.csv", "prediction": "2001", "extracted": true}
+{"key": "nu-200", "question": "Who was the first lieutenant to start their term?", "answer": "Georges-Henri H\u00e9on", "table_id": "csv/203-csv/831.csv", "prediction": "Georges-Henri H\u00e9on", "extracted": true}
+{"key": "nu-201", "question": "What was the episode before \"Robin Hood Play\"?", "answer": "The Weekend Aunt Helen Came", "table_id": "csv/204-csv/803.csv", "prediction": "The Weekend Aunt Helen Came", "extracted": true}
+{"key": "nu-202", "question": "Which state has full membership and also has a membership status under a sovereign state with only 7 members?", "answer": "Iceland", "table_id": "csv/201-csv/20.csv", "prediction": "Iceland", "extracted": true}
+{"key": "nu-203", "question": "How many years were there more than 6 matches?", "answer": "4", "table_id": "csv/204-csv/719.csv", "prediction": "5", "direct": true}
+{"key": "nu-204", "question": "How many more petrol models are there compared to diesel models?", "answer": "13", "table_id": "csv/203-csv/264.csv", "prediction": "9", "extracted": true}
+{"key": "nu-205", "question": "How many drives did Della Penna Motorsports have?", "answer": "2", "table_id": "csv/204-csv/531.csv", "prediction": "2", "direct": true}
+{"key": "nu-206", "question": "What type of train holds the record for the fastest speed of any steam-powered rail vehicle?", "answer": "LNER Class A4 No. 4468 Mallard", "table_id": "csv/204-csv/274.csv", "prediction": "LNER Class A4 No. 4468 Mallard", "extracted": true}
+{"key": "nu-207", "question": "Which language is spoken more during the Olympic oath, English or French?", "answer": "English", "table_id": "csv/203-csv/772.csv", "prediction": "English", "extracted": true}
+{"key": "nu-208", "question": "How many counties are in Saegertown, Pennsylvania?", "answer": "1", "table_id": "csv/203-csv/443.csv", "prediction": "1", "direct": true}
+{"key": "nu-209", "question": "How many albums are there besides \"A World Called You\"?", "answer": "6", "table_id": "csv/204-csv/919.csv", "prediction": "9", "extracted": true}
+{"key": "nu-210", "question": "Who scored the most this season?", "answer": "Greaves", "table_id": "csv/204-csv/411.csv", "prediction": "I cannot answer that question without the specific data or table showing the goal scorers for the 1960-61 Chelsea F.C. season.", "extracted": true}
+{"key": "nu-211", "question": "How many riders scored at least 1000 points?", "answer": "10", "table_id": "csv/204-csv/417.csv", "prediction": "10", "extracted": true}
+{"key": "nu-212", "question": "What competition did he participate in after the Olympic games?", "answer": "Asian Indoor Games", "table_id": "csv/204-csv/588.csv", "prediction": "Asian Indoor Games", "extracted": true}
+{"key": "nu-213", "question": "What was Ajax called before?", "answer": "Ajax the Great", "table_id": "csv/204-csv/432.csv", "prediction": "HMS Achilles", "extracted": true}
+{"key": "nu-214", "question": "Which song is longer than 3 minutes?", "answer": "Intro", "table_id": "csv/203-csv/12.csv", "prediction": "All songs", "extracted": true}
+{"key": "nu-215", "question": "Which school did the player chosen after Bill Bailey attend?", "answer": "Texas Pan-American", "table_id": "csv/204-csv/695.csv", "prediction": "North Texas State", "direct": true}
+{"key": "nu-216", "question": "How many people were on the original Manobo tribe?", "answer": "11", "table_id": "csv/204-csv/999.csv", "prediction": "10", "extracted": true}
+{"key": "nu-217", "question": "Which year had the most championships?", "answer": "2011", "table_id": "csv/203-csv/785.csv", "prediction": "2011", "extracted": true}
+{"key": "nu-218", "question": "Which position was drafted most frequently?", "answer": "Defense", "table_id": "csv/203-csv/617.csv", "prediction": "Defense", "extracted": true}
+{"key": "nu-219", "question": "How many players weigh 215 pounds or more?", "answer": "5", "table_id": "csv/204-csv/83.csv", "prediction": "4", "extracted": true}
+{"key": "nu-220", "question": "How many games were in the Champions League competition?", "answer": "4", "table_id": "csv/203-csv/582.csv", "prediction": "4", "extracted": true}
+{"key": "nu-221", "question": "Which NBA team that no longer exists played after 1953?", "answer": "Baltimore Bullets", "table_id": "csv/204-csv/773.csv", "prediction": "None of the NBA teams that no longer exist played after 1953.", "extracted": true}
+{"key": "nu-222", "question": "Who has the most MVP awards?", "answer": "Mauro Biello", "table_id": "csv/203-csv/304.csv", "prediction": "Mauro Biello", "extracted": true}
+{"key": "nu-223", "question": "deaths from 1950-1960", "answer": "142,000", "table_id": "csv/203-csv/588.csv", "prediction": "142,000", "extracted": true}
+{"key": "nu-224", "question": "Who directed the series before John Reardon?", "answer": "Gerry Poulson", "table_id": "csv/204-csv/233.csv", "prediction": "Frank W. Smith and Gerry Poulson", "extracted": true}
+{"key": "nu-225", "question": "How many Euro 2000 qualifying competitions are there in total?", "answer": "6", "table_id": "csv/203-csv/766.csv", "prediction": "6", "extracted": true}
+{"key": "nu-226", "question": "Which movie was nominated for best supporting actress?", "answer": "Palais Royal!", "table_id": "csv/200-csv/36.csv", "prediction": "Palais Royal!", "extracted": true}
+{"key": "nu-227", "question": "Who was the administrator of SUPARCO before Dr. Abdul Majid?", "answer": "Engr.Sikandar Zaman", "table_id": "csv/204-csv/720.csv", "prediction": "Engr. Sikandar Zaman", "extracted": true}
+{"key": "nu-228", "question": "What came out after Paradise City?", "answer": "Nightrain", "table_id": "csv/203-csv/72.csv", "prediction": "Nightrain", "extracted": true}
+{"key": "nu-229", "question": "How many events had a discus throw distance of at least 60?", "answer": "4 events", "table_id": "csv/204-csv/483.csv", "prediction": "5", "direct": true}
+{"key": "nu-230", "question": "Did Dempsey or Beasley have more caps?", "answer": "DaMarcus Beasley", "table_id": "csv/204-csv/410.csv", "prediction": "DaMarcus Beasley", "extracted": true}
+{"key": "nu-231", "question": "What was the time of the winner in the 1500m kayak race?", "answer": "1:47.066", "table_id": "csv/203-csv/10.csv", "prediction": "4:11.388", "extracted": true}
+{"key": "nu-232", "question": "Who did this team play first this season?", "answer": "Reading", "table_id": "csv/204-csv/857.csv", "prediction": "Reading", "extracted": true}
+{"key": "nu-233", "question": "What is the name of the manufacturer at the bottom of this chart?", "answer": "Gillig", "table_id": "csv/203-csv/690.csv", "prediction": "Gillig", "extracted": true}
+{"key": "nu-234", "question": "How many left wings were chosen in the eighth round?", "answer": "5", "table_id": "csv/203-csv/617.csv", "prediction": "2", "extracted": true}
+{"key": "nu-235", "question": "In which year did they win more conference games, 1917-18 or 1915-16?", "answer": "1915-16", "table_id": "csv/204-csv/640.csv", "prediction": "1915-16", "extracted": true}
+{"key": "nu-236", "question": "Name the countries that won 2 bronze medals each.", "answer": "United States|Canada", "table_id": "csv/203-csv/585.csv", "prediction": "United States and Canada", "extracted": true}
+{"key": "nu-237", "question": "Who was the coach for a longer period, Higgins or Powers?", "answer": "Kevin Higgins", "table_id": "csv/204-csv/8.csv", "prediction": "Carl Prause", "direct": true}
+{"key": "nu-238", "question": "How many times did she rank in the top 30 overall?", "answer": "2", "table_id": "csv/203-csv/170.csv", "prediction": "7", "extracted": true}
+{"key": "nu-239", "question": "Who has won the most games?", "answer": "Carl Fogarty", "table_id": "csv/203-csv/415.csv", "prediction": "Carl Fogarty", "extracted": true}
+{"key": "nu-240", "question": "What is the last destination on this chart called?", "answer": "Bus Terminal", "table_id": "csv/203-csv/335.csv", "prediction": "Train Station Bus Terminal", "extracted": true}
+{"key": "nu-241", "question": "How many games were played at the Philsports Arena?", "answer": "9", "table_id": "csv/204-csv/97.csv", "prediction": "7", "extracted": true}
+{"key": "nu-242", "question": "How many places are home to sea turtles?", "answer": "3", "table_id": "csv/202-csv/264.csv", "prediction": "3", "direct": true}
+{"key": "nu-243", "question": "Which team did we play first in December?", "answer": "Ontario Fury", "table_id": "csv/204-csv/875.csv", "prediction": "Ontario Fury", "extracted": true}
+{"key": "nu-244", "question": "Are the unicode names for alert and backspace the same?", "answer": "no", "table_id": "csv/203-csv/128.csv", "prediction": "No", "extracted": true}
+{"key": "nu-245", "question": "How many singles are not part of an album?", "answer": "18", "table_id": "csv/204-csv/919.csv", "prediction": "5", "extracted": true}
+{"key": "nu-246", "question": "How many picks are there in the eighth round?", "answer": "21", "table_id": "csv/203-csv/617.csv", "prediction": "21", "extracted": true}
+{"key": "nu-247", "question": "How many times does \"all\" appear in the rounds column?", "answer": "15", "table_id": "csv/204-csv/305.csv", "prediction": "11", "direct": true}
+{"key": "nu-248", "question": "Which athlete had the lowest final score?", "answer": "Ver\u00f3nica Ribot (ARG)", "table_id": "csv/203-csv/373.csv", "prediction": "Rim Hassan (EGY)", "extracted": true}
+{"key": "nu-249", "question": "Can you think of a player who scored over 5 goals in the league, but no other goals?", "answer": "Jamie Cureton", "table_id": "csv/204-csv/925.csv", "prediction": "Liam Sercombe", "extracted": true}
+{"key": "nu-250", "question": "Which district had the lowest population in 2008?", "answer": "Jamestown Harbour", "table_id": "csv/203-csv/159.csv", "prediction": "District 9", "extracted": true}
+{"key": "nu-251", "question": "Who is second to France in the list of largest film industry markets by box office?", "answer": "South Korea", "table_id": "csv/203-csv/448.csv", "prediction": "China", "extracted": true}
+{"key": "nu-252", "question": "How many massifs are there in total?", "answer": "15", "table_id": "csv/204-csv/2.csv", "prediction": "15", "direct": true}
+{"key": "nu-253", "question": "How many days separate the first runner-up from the winner?", "answer": "105", "table_id": "csv/204-csv/285.csv", "prediction": "105 days", "extracted": true}
+{"key": "nu-254", "question": "How many times did Lanny Poffo become a champion?", "answer": "4", "table_id": "csv/203-csv/841.csv", "prediction": "1 time", "extracted": true}
+{"key": "nu-255", "question": "How many episodes did Bobby Flay win?", "answer": "2", "table_id": "csv/204-csv/86.csv", "prediction": "2", "extracted": true}
+{"key": "nu-256", "question": "What is the total number of apps from both seasons 2006 and 2007?", "answer": "1", "table_id": "csv/203-csv/297.csv", "prediction": "1", "extracted": true}
+{"key": "nu-257", "question": "How many seasons are there?", "answer": "10", "table_id": "csv/203-csv/170.csv", "prediction": "10", "direct": true}
+{"key": "nu-258", "question": "What was Frank Nobilo's final score?", "answer": "285", "table_id": "csv/204-csv/900.csv", "prediction": "285", "extracted": true}
+{"key": "nu-259", "question": "Which Tonga has chicken with chicks?", "answer": "5 seniti", "table_id": "csv/203-csv/96.csv", "prediction": "Cannot be determined.", "extracted": true}
+{"key": "nu-260", "question": "Did Murahama or Billyken Kid win the title more times?", "answer": "Billyken Kid", "table_id": "csv/204-csv/499.csv", "prediction": "Murahama", "extracted": true}
+{"key": "nu-261", "question": "What comes before 061?", "answer": "060", "table_id": "csv/203-csv/684.csv", "prediction": "060", "extracted": true}
+{"key": "nu-262", "question": "Which company has more Boeing 929s: Sado Kisen or JR Kyushu Jet Ferries?", "answer": "JR Kyushu Jet Ferries", "table_id": "csv/204-csv/280.csv", "prediction": "JR Kyushu Jet Ferries", "direct": true}
+{"key": "nu-263", "question": "How many lines stop at the Naylor Road station?", "answer": "3", "table_id": "csv/204-csv/50.csv", "prediction": "3", "direct": true}
+{"key": "nu-264", "question": "How many teams have a capacity of at least 10,000?", "answer": "15", "table_id": "csv/204-csv/391.csv", "prediction": "16", "extracted": true}
+{"key": "nu-265", "question": "Which team came in second place most recently?", "answer": "San Francisco 49ers", "table_id": "csv/204-csv/645.csv", "prediction": "Detroit Lions", "extracted": true}
+{"key": "nu-266", "question": "Who is mayor of a bigger city, Levi or Elkabetz?", "answer": "Elkabetz", "table_id": "csv/204-csv/512.csv", "prediction": "Elkabetz", "extracted": true}
+{"key": "nu-267", "question": "Which episode had a higher ranking on BBC Three, episode 8 or episode 9?", "answer": "8", "table_id": "csv/204-csv/456.csv", "prediction": "Episode 8", "extracted": true}
+{"key": "nu-268", "question": "Who was the first person from Team Europe to beat Team USA during the third day of the 2007 Weber Cup?", "answer": "Paul Moor", "table_id": "csv/203-csv/380.csv", "prediction": "Paul Moor", "extracted": true}
+{"key": "nu-269", "question": "Who was the cast member that died in an accident?", "answer": "Jared Nathan", "table_id": "csv/204-csv/810.csv", "prediction": "N/A - No evidence provided.", "extracted": true}
+{"key": "nu-270", "question": "How long did the industrial quest take to finish the course?", "answer": "3:14:58:46", "table_id": "csv/203-csv/286.csv", "prediction": "3 days, 14 hours, 58 minutes, and 46 seconds", "extracted": true}
+{"key": "nu-271", "question": "What is the shortest song?", "answer": "0:49", "table_id": "csv/203-csv/49.csv", "prediction": "Bank Lick", "extracted": true}
+{"key": "nu-272", "question": "Who is the fastest swimmer?", "answer": "Ian Thorpe", "table_id": "csv/204-csv/150.csv", "prediction": "Ian Thorpe", "extracted": true}
+{"key": "nu-273", "question": "Which album had the most popular songs?", "answer": "Planet Pop", "table_id": "csv/201-csv/0.csv", "prediction": "Planet Pop", "direct": true}
+{"key": "nu-274", "question": "Which candidate is from Tulsky?", "answer": "Alissa Joanndova", "table_id": "csv/203-csv/825.csv", "prediction": "Alissa Joanndova", "extracted": true}
+{"key": "nu-275", "question": "What is the most recent competition?", "answer": "All-Africa Games", "table_id": "csv/204-csv/315.csv", "prediction": "2011 All-Africa Games", "extracted": true}
+{"key": "nu-276", "question": "Who scored the lowest among the top scorers listed?", "answer": "Davonn Harp", "table_id": "csv/204-csv/97.csv", "prediction": "Davonn Harp", "extracted": true}
+{"key": "nu-277", "question": "When did Hugo Perez score the most international goals?", "answer": "1993", "table_id": "csv/203-csv/50.csv", "prediction": "April 4, 1992", "extracted": true}
+{"key": "nu-278", "question": "How many laps did Tony Gulotta typically drive in the Indianapolis 500 races he participated in?", "answer": "153", "table_id": "csv/203-csv/647.csv", "prediction": "153", "extracted": true}
+{"key": "nu-279", "question": "He is a progressive Republican.", "answer": "William Kent", "table_id": "csv/204-csv/677.csv", "prediction": "Julius Kahn", "extracted": true}
+{"key": "nu-280", "question": "How many areas in this town have over 10,000 residents?", "answer": "4", "table_id": "csv/204-csv/890.csv", "prediction": "2", "direct": true}
+{"key": "nu-281", "question": "How many points did all the Spain players score together?", "answer": "52", "table_id": "csv/203-csv/578.csv", "prediction": "52", "extracted": true}
+{"key": "nu-282", "question": "How many episodes did Leo Penn direct?", "answer": "4", "table_id": "csv/203-csv/315.csv", "prediction": "5", "extracted": true}
+{"key": "nu-283", "question": "In which season did Dnipro Dnipropetrovsk make 28 appearances?", "answer": "2009/10", "table_id": "csv/203-csv/483.csv", "prediction": "2009/10", "direct": true}
+{"key": "nu-284", "question": "How many times did Tony Gulotta finish in the top 3 at the Indy 500?", "answer": "1", "table_id": "csv/203-csv/647.csv", "prediction": "2", "direct": true}
+{"key": "nu-285", "question": "How many stadiums can hold more than 25,000 people?", "answer": "3", "table_id": "csv/204-csv/440.csv", "prediction": "3", "direct": true}
+{"key": "nu-286", "question": "How many albums has rapper Saigon released in the U.S.?", "answer": "4", "table_id": "csv/203-csv/454.csv", "prediction": "4", "extracted": true}
+{"key": "nu-287", "question": "Which player was not from the USA?", "answer": "Kyrylo Fesenko", "table_id": "csv/203-csv/820.csv", "prediction": "Kyrylo Fesenko", "extracted": true}
+{"key": "nu-288", "question": "Which church doesn't include the parish name in its name?", "answer": "Bamberg Church", "table_id": "csv/202-csv/175.csv", "prediction": "Bamberg Church", "extracted": true}
+{"key": "nu-289", "question": "How many international games did Marcos Pizzelli score in at least once?", "answer": "4", "table_id": "csv/203-csv/722.csv", "prediction": "2", "direct": true}
+{"key": "nu-290", "question": "How many competitions are there in total?", "answer": "20", "table_id": "csv/204-csv/272.csv", "prediction": "21", "extracted": true}
+{"key": "nu-291", "question": "What was the next single/EP released after \"Die Famous\"?", "answer": "Redroid", "table_id": "csv/204-csv/817.csv", "prediction": "Redroid", "extracted": true}
+{"key": "nu-292", "question": "What show did Deborah Secco act in as Eva?", "answer": "Homem Objeto", "table_id": "csv/202-csv/201.csv", "prediction": "A Padroeira", "extracted": true}
+{"key": "nu-293", "question": "Which season had more than 20 in giant slalom but not super g?", "answer": "2014", "table_id": "csv/203-csv/779.csv", "prediction": "2010 and 2014", "extracted": true}
+{"key": "nu-294", "question": "Who drove more laps, Denny Hulme or Jo Siffert?", "answer": "Denny Hulme", "table_id": "csv/204-csv/953.csv", "prediction": "Denny Hulme and Jo Siffert drove the same number of laps.", "extracted": true}
+{"key": "nu-295", "question": "What year were championships held without playoffs besides 1935/36?", "answer": "1953/54", "table_id": "csv/203-csv/435.csv", "prediction": "1948/49", "extracted": true}
+{"key": "nu-296", "question": "What was the first episode directed by Paul Wendkos called?", "answer": "The Time of the Knife", "table_id": "csv/203-csv/315.csv", "prediction": "The Time of the Knife", "extracted": true}
+{"key": "nu-297", "question": "Which country was faster, Norway or South Korea?", "answer": "Norway", "table_id": "csv/204-csv/934.csv", "prediction": "Norway", "extracted": true}
+{"key": "nu-298", "question": "Where does the bus stop after Kingston Centre on Route 11?", "answer": "Cataraqui Town Centre", "table_id": "csv/203-csv/335.csv", "prediction": "Cataraqui Town Centre, Bath Road, and Gardiners Town Centre", "extracted": true}
+{"key": "nu-299", "question": "Which week had the lowest box office earnings?", "answer": "June 28, 1998", "table_id": "csv/204-csv/377.csv", "prediction": "April 26, 1998", "extracted": true}
+{"key": "nu-300", "question": "What year was Lord Beaverbrook chancellor of the Duchy of Lancaster?", "answer": "1918", "table_id": "csv/200-csv/37.csv", "prediction": "1918", "extracted": true}
+{"key": "nu-301", "question": "When was the movie \"Eagle in a Cage,\" starring Georgina Hale, released in the USA?", "answer": "1972", "table_id": "csv/202-csv/248.csv", "prediction": "1972", "extracted": true}
+{"key": "nu-302", "question": "What location was next to Tokyo, Japan?", "answer": "High Point, North Carolina", "table_id": "csv/203-csv/50.csv", "prediction": "High Point, North Carolina", "extracted": true}
+{"key": "nu-303", "question": "Who is the last speaker?", "answer": "Ruslan Zakharov", "table_id": "csv/203-csv/772.csv", "prediction": "Werner Delle Karth", "extracted": true}
+{"key": "nu-304", "question": "What is the name of the hurricane that comes after Hurricane Jules?", "answer": "Switcheroo", "table_id": "csv/203-csv/768.csv", "prediction": "Switcheroo", "extracted": true}
+{"key": "nu-305", "question": "When was their previous 6th place finish in the regular season before 2009?", "answer": "2004", "table_id": "csv/204-csv/972.csv", "prediction": "2004", "extracted": true}
+{"key": "nu-306", "question": "How many times did Randy Savage win the championship?", "answer": "6", "table_id": "csv/203-csv/841.csv", "prediction": "2", "extracted": true}
+{"key": "nu-307", "question": "How many teams are not opponents?", "answer": "3", "table_id": "csv/204-csv/167.csv", "prediction": "6", "extracted": true}
+{"key": "nu-308", "question": "How many points did Italians score on average?", "answer": "20.25", "table_id": "csv/203-csv/578.csv", "prediction": "18", "direct": true}
+{"key": "nu-309", "question": "What was Venus renamed in April 1991?", "answer": "Suisei", "table_id": "csv/204-csv/280.csv", "prediction": "Princess Teguise", "extracted": true}
+{"key": "nu-310", "question": "How many years ago was the first game listed?", "answer": "70", "table_id": "csv/204-csv/166.csv", "prediction": "97 years ago", "direct": true}
+{"key": "nu-311", "question": "Is DM higher or lower than AM?", "answer": "above", "table_id": "csv/204-csv/653.csv", "prediction": "higher", "extracted": true}
+{"key": "nu-312", "question": "When is the final date?", "answer": "Dec 21", "table_id": "csv/204-csv/224.csv", "prediction": "December 21st", "extracted": true}
+{"key": "nu-313", "question": "How many types of birds are in Guatemala?", "answer": "684", "table_id": "csv/201-csv/8.csv", "prediction": "684", "direct": true}
+{"key": "nu-314", "question": "In what year did Skoda start selling over 300,000 cars?", "answer": "1997", "table_id": "csv/204-csv/21.csv", "prediction": "1997", "direct": true}
+{"key": "nu-315", "question": "How many wins are there?", "answer": "2", "table_id": "csv/204-csv/993.csv", "prediction": "2", "extracted": true}
+{"key": "nu-316", "question": "How many pasurams are in Naanmugan?", "answer": "96", "table_id": "csv/204-csv/701.csv", "prediction": "96", "direct": true}
+{"key": "nu-317", "question": "Who was the most recent administrator of SUPARCO?", "answer": "Major General Ahmed Bilal", "table_id": "csv/204-csv/720.csv", "prediction": "Major General Ahmed Bilal", "extracted": true}
+{"key": "nu-318", "question": "How many schools are Montessori schools?", "answer": "1", "table_id": "csv/200-csv/8.csv", "prediction": "Three", "extracted": true}
+{"key": "nu-319", "question": "What is their main age group?", "answer": "3", "table_id": "csv/204-csv/502.csv", "prediction": "3 years old", "extracted": true}
+{"key": "nu-320", "question": "Which tournament had a British runner-up?", "answer": "Tsuruya Open", "table_id": "csv/203-csv/278.csv", "prediction": "None", "extracted": true}
+{"key": "nu-321", "question": "How many laps were run before retiring?", "answer": "200", "table_id": "csv/203-csv/647.csv", "prediction": "747 laps", "direct": true}
+{"key": "nu-322", "question": "How many goals did Johnson and Stewart score together?", "answer": "36", "table_id": "csv/204-csv/410.csv", "prediction": "36", "direct": true}
+{"key": "nu-323", "question": "How many movies has he made?", "answer": "15", "table_id": "csv/203-csv/641.csv", "prediction": "14", "extracted": true}
+{"key": "nu-324", "question": "Who is the final person at the table?", "answer": "Justin Rodriguez", "table_id": "csv/203-csv/155.csv", "prediction": "Justin Rodriguez", "extracted": true}
+{"key": "nu-325", "question": "Sheppey island is 36 square miles, what country is it in?", "answer": "United Kingdom", "table_id": "csv/203-csv/144.csv", "prediction": "United Kingdom", "extracted": true}
+{"key": "nu-326", "question": "How many times was Bryan Field the only color commentator?", "answer": "3", "table_id": "csv/204-csv/478.csv", "prediction": "3", "direct": true}
+{"key": "nu-327", "question": "Which song was on the US mainstream rock charts longer - \"One Thing\" or \"The Sick\"?", "answer": "Bleeder", "table_id": "csv/203-csv/628.csv", "prediction": "Cannot be determined", "extracted": true}
+{"key": "nu-328", "question": "What was her highest ranking?", "answer": "112", "table_id": "csv/203-csv/170.csv", "prediction": "9", "direct": true}
+{"key": "nu-329", "question": "Which movie was the first to win the Filmfare Award for Best Actress?", "answer": "Moggina Manasu", "table_id": "csv/203-csv/463.csv", "prediction": "Moggina Manasu", "extracted": true}
+{"key": "nu-330", "question": "Are there at least 11 rounds?", "answer": "no", "table_id": "csv/204-csv/458.csv", "prediction": "No", "extracted": true}
+{"key": "nu-331", "question": "How many countries were in the 1956 Winter Olympics?", "answer": "10", "table_id": "csv/203-csv/585.csv", "prediction": "10", "extracted": true}
+{"key": "nu-332", "question": "In what year did Poland reach its highest position?", "answer": "2010", "table_id": "csv/203-csv/492.csv", "prediction": "2010", "extracted": true}
+{"key": "nu-333", "question": "How fast did the train LNER Class A4 No. 4468 Mallard travel in kilometers per hour?", "answer": "202.6 km/h", "table_id": "csv/204-csv/274.csv", "prediction": "202.6 km/h", "extracted": true}
+{"key": "nu-334", "question": "Congressmen re-elected with over 60% of the vote", "answer": "Wayne Gilchrest|Ben Cardin|Albert Wynn|Steny Hoyer|Roscoe Bartlett|Elijah Cummings", "table_id": "csv/203-csv/423.csv", "prediction": "Ben Cardin, Albert Wynn, Steny Hoyer, Roscoe Bartlett, and Elijah Cummings", "extracted": true}
+{"key": "nu-335", "question": "How long did it take Jeff Lastennet to finish?", "answer": "1:46.70", "table_id": "csv/204-csv/304.csv", "prediction": "1 minute and 46.70 seconds", "extracted": true}
+{"key": "nu-336", "question": "How much time did it take Ryan Briscoe to finish the 2012 GoPro Indy Grand Prix of Sonoma?", "answer": "2:07:02.8248", "table_id": "csv/204-csv/366.csv", "prediction": "2 hours, 7 minutes, and 2.8248 seconds", "extracted": true}
+{"key": "nu-337", "question": "How many games did the team score 3 goals or more?", "answer": "4", "table_id": "csv/204-csv/908.csv", "prediction": "5", "direct": true}
+{"key": "nu-338", "question": "What was the average score of the medalists who won gold, silver, and bronze?", "answer": "525.26", "table_id": "csv/203-csv/373.csv", "prediction": "503.65", "extracted": true}
+{"key": "nu-339", "question": "When were there no shirt sponsors?", "answer": "1982-1985", "table_id": "csv/203-csv/329.csv", "prediction": "1977-1978, 1982-1985, 1994-1995", "extracted": true}
+{"key": "nu-340", "question": "Who served as law clerk after Jerome B. Libin and Patrick F. McCartan?", "answer": "D. Lawrence Gunnels", "table_id": "csv/204-csv/619.csv", "prediction": "D. Lawrence Gunnels", "extracted": true}
+{"key": "nu-341", "question": "Is Thaddeus Bell older than Klaus J\u00fcrgen Schneider?", "answer": "Klaus J\u00fcrgen Schneider", "table_id": "csv/204-csv/931.csv", "prediction": "Yes, Thane Baker is older than Klaus J\u00fcrgen Schneider.", "extracted": true}
+{"key": "nu-342", "question": "Which had more viewers, the rugby championship or the State of Origin series?", "answer": "State of Origin series", "table_id": "csv/203-csv/199.csv", "prediction": "State of Origin series", "extracted": true}
+{"key": "nu-343", "question": "What was the most recent season played?", "answer": "2012-13", "table_id": "csv/203-csv/776.csv", "prediction": "2012\u201313", "extracted": true}
+{"key": "nu-344", "question": "How many awards did this film win?", "answer": "4", "table_id": "csv/203-csv/402.csv", "prediction": "5", "extracted": true}
+{"key": "nu-345", "question": "What tournament is next after Ecuador F2?", "answer": "Chile F2", "table_id": "csv/204-csv/447.csv", "prediction": "Unknown", "extracted": true}
+{"key": "nu-346", "question": "Which tree is the densest in India?", "answer": "Tamarind", "table_id": "csv/203-csv/738.csv", "prediction": "Ironwood", "extracted": true}
+{"key": "nu-347", "question": "Who is first on the list?", "answer": "Netherlands", "table_id": "csv/204-csv/306.csv", "prediction": "Netherlands", "extracted": true}
+{"key": "nu-348", "question": "What color was the first pod in the Leroy & Stitch episode list?", "answer": "Blue", "table_id": "csv/204-csv/5.csv", "prediction": "Blue", "extracted": true}
+{"key": "nu-349", "question": "How many extra radio stations does Rome have compared to Milan?", "answer": "3", "table_id": "csv/203-csv/500.csv", "prediction": "1", "extracted": true}
+{"key": "nu-350", "question": "Who got the most votes?", "answer": "Larisa Verbitskaya 43.the TV presenter", "table_id": "csv/204-csv/827.csv", "prediction": "Larisa Verbitskaya", "extracted": true}
+{"key": "nu-351", "question": "Did Galles-Kraco Racing have fewer than 10 wins this season?", "answer": "less", "table_id": "csv/203-csv/181.csv", "prediction": "yes, they had fewer than 10 wins", "direct": true}
+{"key": "nu-352", "question": "For how many years was Honda used consecutively after 2005?", "answer": "6", "table_id": "csv/203-csv/493.csv", "prediction": "7", "direct": true}
+{"key": "nu-353", "question": "What kind of boat is the last ship?", "answer": "Lightship", "table_id": "csv/204-csv/797.csv", "prediction": "Lightship", "extracted": true}
+{"key": "nu-354", "question": "Who was the second person to work on the Pegasus?", "answer": "Tane Yaku Jetfoils", "table_id": "csv/204-csv/280.csv", "prediction": "Princess Dacil", "extracted": true}
+{"key": "nu-355", "question": "How many games are on ABC?", "answer": "6", "table_id": "csv/203-csv/62.csv", "prediction": "6", "extracted": true}
+{"key": "nu-356", "question": "Which competition has more people attending each game on average, Super Rugby or National Rugby League?", "answer": "Super Rugby", "table_id": "csv/203-csv/199.csv", "prediction": "Super Rugby", "extracted": true}
+{"key": "nu-357", "question": "Who came in last place?", "answer": "Paul Tracy", "table_id": "csv/204-csv/491.csv", "prediction": "Paul Tracy", "extracted": true}
+{"key": "nu-358", "question": "Who has the most titles?", "answer": "Jansher Khan", "table_id": "csv/203-csv/86.csv", "prediction": "Jansher Khan", "extracted": true}
+{"key": "nu-359", "question": "Norway finished 5th. Which team finished before them?", "answer": "Canada", "table_id": "csv/204-csv/934.csv", "prediction": "Canada", "extracted": true}
+{"key": "nu-360", "question": "How many dates are there?", "answer": "10", "table_id": "csv/204-csv/224.csv", "prediction": "10", "direct": true}
+{"key": "nu-361", "question": "Did Hofmann or Porto finish first?", "answer": "Alex Hofmann", "table_id": "csv/204-csv/892.csv", "prediction": "Hofmann", "extracted": true}
+{"key": "nu-362", "question": "What year is it?", "answer": "2003", "table_id": "csv/204-csv/315.csv", "prediction": "2011", "extracted": true}
+{"key": "nu-363", "question": "What comes before Darien?", "answer": "Col\u00f3n", "table_id": "csv/204-csv/460.csv", "prediction": "Col\u00f3n", "extracted": true}
+{"key": "nu-364", "question": "How many writers wrote at least 3 \"I Spy\" episodes?", "answer": "3", "table_id": "csv/203-csv/315.csv", "prediction": "3", "direct": true}
+{"key": "nu-365", "question": "How much time passed between the release of Guns N' Roses songs \"Sweet Child O' Mine\" and \"Nightrain\"?", "answer": "1 year", "table_id": "csv/203-csv/72.csv", "prediction": "1 year", "extracted": true}
+{"key": "nu-366", "question": "How many miles is the Caen-Dinan route?", "answer": "132 mi", "table_id": "csv/204-csv/406.csv", "prediction": "132 miles", "extracted": true}
+{"key": "nu-367", "question": "City with the highest population over 100,000 feet above sea level", "answer": "Bra\u0219ov", "table_id": "csv/204-csv/454.csv", "prediction": "Cluj-Napoca", "extracted": true}
+{"key": "nu-368", "question": "When did she last get her best job?", "answer": "2012", "table_id": "csv/203-csv/819.csv", "prediction": "2012", "extracted": true}
+{"key": "nu-369", "question": "How many drivers are from the United Kingdom?", "answer": "4", "table_id": "csv/204-csv/491.csv", "prediction": "2", "extracted": true}
+{"key": "nu-370", "question": "How many more players are from the US compared to players from other countries?", "answer": "8", "table_id": "csv/204-csv/900.csv", "prediction": "6", "extracted": true}
+{"key": "nu-371", "question": "Whose auto score matches George McNeill's?", "answer": "Karl Heinz Schr\u00f6der", "table_id": "csv/204-csv/931.csv", "prediction": "N/A", "extracted": true}
+{"key": "nu-372", "question": "Which movie was nominated twice in a row for the Alma award for best actor in a TV show?", "answer": "Spin City", "table_id": "csv/203-csv/709.csv", "prediction": "Spin City", "direct": true}
+{"key": "nu-373", "question": "How many games did Archibald score in this season?", "answer": "3", "table_id": "csv/204-csv/908.csv", "prediction": "2", "extracted": true}
+{"key": "nu-374", "question": "How many pasurams are in total in Thiruvaymozhi?", "answer": "1102", "table_id": "csv/204-csv/701.csv", "prediction": "1102", "extracted": true}
+{"key": "nu-375", "question": "Who do they play before Oregon State?", "answer": "#9 (FCS) Northern Iowa*", "table_id": "csv/204-csv/657.csv", "prediction": "#9 (FCS) Northern Iowa", "extracted": true}
+{"key": "nu-376", "question": "How many builders are there in total?", "answer": "5", "table_id": "csv/204-csv/432.csv", "prediction": "5", "extracted": true}
+{"key": "nu-377", "question": "Is the pitch of a PG7 screw bigger than a PG16 screw?", "answer": "no", "table_id": "csv/204-csv/142.csv", "prediction": "No", "extracted": true}
+{"key": "nu-378", "question": "How many years did she finish in the top 10 in a row?", "answer": "3", "table_id": "csv/203-csv/65.csv", "prediction": "4", "direct": true}
+{"key": "nu-379", "question": "How many losses were there on the road?", "answer": "6", "table_id": "csv/204-csv/993.csv", "prediction": "7", "direct": true}
+{"key": "nu-380", "question": "Which race was the first to occur?", "answer": "Donington Park", "table_id": "csv/203-csv/514.csv", "prediction": "Round 1 at Donington Park on August 31", "extracted": true}
+{"key": "nu-381", "question": "How many current members are present?", "answer": "7", "table_id": "csv/203-csv/432.csv", "prediction": "4", "extracted": true}
+{"key": "nu-382", "question": "How many German flags are on this table?", "answer": "1", "table_id": "csv/203-csv/140.csv", "prediction": "0", "extracted": true}
+{"key": "nu-383", "question": "How many seasons did Team Chengdu Wuniu play?", "answer": "1", "table_id": "csv/203-csv/297.csv", "prediction": "one season", "direct": true}
+{"key": "nu-384", "question": "When did the Kansas City Brass last finish 4th in the regular season standings?", "answer": "2013", "table_id": "csv/204-csv/972.csv", "prediction": "2013", "extracted": true}
+{"key": "nu-385", "question": "Who is the best player?", "answer": "Francis Forde", "table_id": "csv/204-csv/505.csv", "prediction": "Francis Forde", "extracted": true}
+{"key": "nu-386", "question": "How much more money did Geoff Ogilvy win compared to Ernie Els?", "answer": "1", "table_id": "csv/204-csv/369.csv", "prediction": "Cannot be determined without specific prize money information.", "extracted": true}
+{"key": "nu-387", "question": "How many episodes were in the last season on this chart?", "answer": "22", "table_id": "csv/203-csv/867.csv", "prediction": "22", "direct": true}
+{"key": "nu-388", "question": "How many games did the 1994 Alabama Crimson Tide football team have with at least 70,000 people in attendance?", "answer": "11", "table_id": "csv/203-csv/62.csv", "prediction": "6", "extracted": true}
+{"key": "nu-389", "question": "Which country has the most challenger operations?", "answer": "Libya", "table_id": "csv/204-csv/728.csv", "prediction": "Libya", "direct": true}
+{"key": "nu-390", "question": "How many seasons did the Baltimore Bullets and Chicago Stags play together?", "answer": "12", "table_id": "csv/204-csv/773.csv", "prediction": "12", "direct": true}
+{"key": "nu-391", "question": "What comes after the octal number 067?", "answer": "070", "table_id": "csv/203-csv/684.csv", "prediction": "070", "extracted": true}
+{"key": "nu-392", "question": "How many countries are in round 8?", "answer": "4", "table_id": "csv/203-csv/617.csv", "prediction": "2", "extracted": true}
+{"key": "nu-393", "question": "Did Mark Slavin and Itzhak Nir both finish their events successfully?", "answer": "no", "table_id": "csv/203-csv/0.csv", "prediction": "Mark Slavin did not finish his event successfully and Itzhak Nir did not finish successfully either as he only reached 23rd place.", "extracted": true}
+{"key": "nu-394", "question": "How many injuries were reported when toy safety funding was at its lowest?", "answer": "202 (estimate)", "table_id": "csv/203-csv/66.csv", "prediction": "130", "direct": true}
+{"key": "nu-395", "question": "How many experiments are there in total?", "answer": "99", "table_id": "csv/204-csv/5.csv", "prediction": "24", "extracted": true}
+{"key": "nu-396", "question": "What is the top speed in kilometers per hour of the passenger car model built in 1913-1914?", "answer": "75 km/h (47 mph)", "table_id": "csv/203-csv/453.csv", "prediction": "100 km/h", "extracted": true}
+{"key": "nu-397", "question": "By how many points did they defeat the Bengals in Week 5?", "answer": "7", "table_id": "csv/203-csv/361.csv", "prediction": "7 points", "extracted": true}
+{"key": "nu-398", "question": "Which country is in first place?", "answer": "United States", "table_id": "csv/204-csv/201.csv", "prediction": "South Korea", "extracted": true}
+{"key": "nu-399", "question": "Which Asian countries made more than 1.5 billion dollars in box office revenue in 2013? ", "answer": "2", "table_id": "csv/203-csv/448.csv", "prediction": "China and Japan", "extracted": true}
+{"key": "nu-400", "question": "Which club won first place?", "answer": "Beijing Guoan", "table_id": "csv/203-csv/514.csv", "prediction": "Beijing Guoan", "extracted": true}
+{"key": "nu-401", "question": "What place in Pennsylvania comes before Sadlers Corner alphabetically?", "answer": "Sacramento", "table_id": "csv/203-csv/443.csv", "prediction": "Sacramento", "extracted": true}
+{"key": "nu-402", "question": "How many medals did Italy win in total?", "answer": "3", "table_id": "csv/203-csv/351.csv", "prediction": "3", "direct": true}
+{"key": "nu-403", "question": "Which location was before Lake Louise, Canada on November 30, 2012?", "answer": "Bansko, Bulgaria", "table_id": "csv/204-csv/921.csv", "prediction": "Bansko, Bulgaria on February 26, 2012", "extracted": true}
+{"key": "nu-404", "question": "How many races were there in the 2009 Fujitsu V8 Supercar season?", "answer": "7", "table_id": "csv/204-csv/714.csv", "prediction": "7 races", "extracted": true}
+{"key": "nu-405", "question": "How many times is the Cataraqui Town Centre listed as a place to go?", "answer": "6", "table_id": "csv/203-csv/335.csv", "prediction": "5", "extracted": true}
+{"key": "nu-406", "question": "What subject is listed as the oldest?", "answer": "Tools", "table_id": "csv/203-csv/87.csv", "prediction": "Round Earth", "extracted": true}
+{"key": "nu-407", "question": "How many times did Pete Sampras compete in the final round?", "answer": "3", "table_id": "csv/204-csv/758.csv", "prediction": "3", "extracted": true}
+{"key": "nu-408", "question": "Which team did the racer last compete with in this race?", "answer": "Team Bigazzi SRL", "table_id": "csv/204-csv/995.csv", "prediction": "Team Bigazzi SRL", "extracted": true}
+{"key": "nu-409", "question": "What was the latest season of Zoom?", "answer": "SEASON 7", "table_id": "csv/204-csv/810.csv", "prediction": "Season 7 (2005)", "extracted": true}
+{"key": "nu-410", "question": "How many jockeys were 13 years old?", "answer": "5", "table_id": "csv/204-csv/856.csv", "prediction": "3", "direct": true}
+{"key": "nu-411", "question": "How many players did the Chicago Bears draft in 2000?", "answer": "9", "table_id": "csv/203-csv/544.csv", "prediction": "9", "extracted": true}
+{"key": "nu-412", "question": "How many competitors scored 2.24 points or more during qualification?", "answer": "14", "table_id": "csv/204-csv/844.csv", "prediction": "10", "extracted": true}
+{"key": "nu-413", "question": "How many divisions are larger than 1000 km^2?", "answer": "5", "table_id": "csv/202-csv/270.csv", "prediction": "5", "direct": true}
+{"key": "nu-414", "question": "In how many Olympic Games did Melissa Morrison-Howard win?", "answer": "2", "table_id": "csv/203-csv/259.csv", "prediction": "1", "direct": true}
+{"key": "nu-415", "question": "Which season was ranked the highest?", "answer": "3", "table_id": "csv/203-csv/867.csv", "prediction": "Season 3", "extracted": true}
+{"key": "nu-416", "question": "Which edition has a user limit of less than 20?", "answer": "Foundation", "table_id": "csv/204-csv/134.csv", "prediction": "Active Directory Lightweight Directory Services", "extracted": true}
+{"key": "nu-417", "question": "Where is the most recent race taking place?", "answer": "Tignes, France", "table_id": "csv/204-csv/112.csv", "prediction": "Tignes, France", "extracted": true}
+{"key": "nu-418", "question": "What comes after GL-A5?", "answer": "GL-A-6", "table_id": "csv/204-csv/254.csv", "prediction": "Quarterfinals-1", "extracted": true}
+{"key": "nu-419", "question": "Which division is the largest in terms of area?", "answer": "Hailin City", "table_id": "csv/202-csv/270.csv", "prediction": "Hailin City", "direct": true}
+{"key": "nu-420", "question": "How many games did Canada win?", "answer": "3", "table_id": "csv/203-csv/68.csv", "prediction": "3", "extracted": true}
+{"key": "nu-421", "question": "How far did they run the most?", "answer": "1-1/8", "table_id": "csv/204-csv/825.csv", "prediction": "1-1/8 miles", "direct": true}
+{"key": "nu-422", "question": "First GK awarded?", "answer": "Moeneeb Josephs", "table_id": "csv/203-csv/427.csv", "prediction": "Itumeleng Khune", "extracted": true}
+{"key": "nu-423", "question": "How many total wins do the St. Louis Rams have?", "answer": "14", "table_id": "csv/203-csv/48.csv", "prediction": "14", "extracted": true}
+{"key": "nu-424", "question": "How many horses that didn't finish the race fell?", "answer": "15", "table_id": "csv/204-csv/856.csv", "prediction": "15", "direct": true}
+{"key": "nu-425", "question": "What is the page difference between Global Turf Wars and regulating the telecoms market?", "answer": "183 pages", "table_id": "csv/203-csv/217.csv", "prediction": "183", "direct": true}
+{"key": "nu-426", "question": "Who is second place after Brian Morgan?", "answer": "Alan McManus", "table_id": "csv/203-csv/140.csv", "prediction": "Alan McManus", "extracted": true}
+{"key": "nu-427", "question": "Who from the cast started teaching Spanish?", "answer": "Keiko Yoshida", "table_id": "csv/204-csv/810.csv", "prediction": "Estuardo Alvizures", "extracted": true}
+{"key": "nu-428", "question": "Who scored the most in this season?", "answer": "Spas Delev", "table_id": "csv/204-csv/744.csv", "prediction": "Spas Delev", "direct": true}
+{"key": "nu-429", "question": "How many winners are there in total?", "answer": "12", "table_id": "csv/204-csv/285.csv", "prediction": "10", "extracted": true}
+{"key": "nu-430", "question": "How many square miles is Sandy Bay and Longwood combined?", "answer": "18.8", "table_id": "csv/203-csv/159.csv", "prediction": "18.3 square miles", "extracted": true}
+{"key": "nu-431", "question": "What is the highest transfer fee?", "answer": "86.0", "table_id": "csv/203-csv/748.csv", "prediction": "86.0 million euros", "extracted": true}
+{"key": "nu-432", "question": "How many managers were there from 1961 to 1987?", "answer": "16", "table_id": "csv/203-csv/822.csv", "prediction": "19 managers", "extracted": true}
+{"key": "nu-433", "question": "Which poll source was most commonly used?", "answer": "Survey USA", "table_id": "csv/203-csv/662.csv", "prediction": "Survey USA", "extracted": true}
+{"key": "nu-434", "question": "Which builder built the most?", "answer": "Hawthorn Leslie", "table_id": "csv/203-csv/863.csv", "prediction": "Andrew Barclay", "extracted": true}
+{"key": "nu-435", "question": "How many awards has Two and a Half Men received?", "answer": "12", "table_id": "csv/203-csv/709.csv", "prediction": "4", "extracted": true}
+{"key": "nu-436", "question": "How many teams won most of their games?", "answer": "2", "table_id": "csv/203-csv/53.csv", "prediction": "2", "direct": true}
+{"key": "nu-437", "question": "How many goals did Earnie Stewart score?", "answer": "17", "table_id": "csv/204-csv/410.csv", "prediction": "17", "extracted": true}
+{"key": "nu-438", "question": "Which road is the longest?", "answer": "Massachusetts Turnpike", "table_id": "csv/203-csv/100.csv", "prediction": "Massachusetts Turnpike", "extracted": true}
+{"key": "nu-439", "question": "Which poll did Anastasiades win by a bigger difference, on February 1, 2013, or December 3, 2012?", "answer": "1 February 2013", "table_id": "csv/204-csv/116.csv", "prediction": "December 3, 2012", "extracted": true}
+{"key": "nu-440", "question": "Where was the next location after the Lincoln Financial Field in 2009?", "answer": "Giants Stadium", "table_id": "csv/204-csv/393.csv", "prediction": "Giants Stadium", "extracted": true}
+{"key": "nu-441", "question": "Which artist is higher than the last artist?", "answer": "Rihanna", "table_id": "csv/204-csv/895.csv", "prediction": "August Alsina", "direct": true}
+{"key": "nu-442", "question": "How many albums were released?", "answer": "4", "table_id": "csv/203-csv/454.csv", "prediction": "3", "extracted": true}
+{"key": "nu-443", "question": "When was the last time the West Indies appeared on the list?", "answer": "25 November 1987", "table_id": "csv/204-csv/973.csv", "prediction": "6 February 1959", "extracted": true}
+{"key": "nu-444", "question": "Who are two people who are both 28 years old?", "answer": "Craig Phillips|Tom McDermott", "table_id": "csv/204-csv/444.csv", "prediction": "Craig Phillips and Sada Wilkington", "extracted": true}
+{"key": "nu-445", "question": "How many times did Melissa Morrison-Howard place 3rd or higher from 1997 to 2004?", "answer": "7", "table_id": "csv/203-csv/259.csv", "prediction": "8", "direct": true}
+{"key": "nu-446", "question": "What is the population difference between Sekgosese and Dendron?", "answer": "44864", "table_id": "csv/204-csv/890.csv", "prediction": "44,864", "extracted": true}
+{"key": "nu-447", "question": "Which team had only two drivers?", "answer": "M\u00fccke Motorsport", "table_id": "csv/204-csv/305.csv", "prediction": "DAMS", "extracted": true}
+{"key": "nu-448", "question": "How many ethnic Poles died during the German occupation in 1940/41?", "answer": "352,000", "table_id": "csv/204-csv/149.csv", "prediction": "352,000", "extracted": true}
+{"key": "nu-449", "question": "How long is the publication about the effects of broadband?", "answer": "415 pages", "table_id": "csv/203-csv/217.csv", "prediction": "415 pages", "extracted": true}
+{"key": "nu-450", "question": "Which country has the highest number of bronze medals?", "answer": "United States", "table_id": "csv/203-csv/64.csv", "prediction": "the United States", "direct": true}
+{"key": "nu-451", "question": "How many teams that are no longer active made it to the playoffs at least once?", "answer": "8", "table_id": "csv/204-csv/773.csv", "prediction": "6", "direct": true}
+{"key": "nu-452", "question": "How many movies have a rating of 8 or higher?", "answer": "2", "table_id": "csv/203-csv/641.csv", "prediction": "4", "extracted": true}
+{"key": "nu-453", "question": "Who won first place in the \"Budweiser Grand Prix of Cleveland\"?", "answer": "Team Penske", "table_id": "csv/203-csv/181.csv", "prediction": "Danny Sullivan", "extracted": true}
+{"key": "nu-454", "question": "Did Robert Lewin write more episodes than Arthur Dales?", "answer": "Yes", "table_id": "csv/203-csv/315.csv", "prediction": "Robert Lewin", "extracted": true}
+{"key": "nu-455", "question": "How long did it take to build Cranbrook School for Boys, from start to finish?", "answer": "6", "table_id": "csv/204-csv/545.csv", "prediction": "6 years", "extracted": true}
+{"key": "nu-456", "question": "Which competition in 2003 happened in the same year as 2007?", "answer": "All-Africa Games", "table_id": "csv/204-csv/483.csv", "prediction": "All-Africa Games", "extracted": true}
+{"key": "nu-457", "question": "S Loeb won how many races in a row?", "answer": "3", "table_id": "csv/203-csv/236.csv", "prediction": "5", "extracted": true}
+{"key": "nu-458", "question": "What symbol is on top of Christ Church Lutheran in Minneapolis?", "answer": "Cross", "table_id": "csv/204-csv/545.csv", "prediction": "cross", "extracted": true}
+{"key": "nu-459", "question": "Which team had the fewest wins?", "answer": "Doug Shierson Racing", "table_id": "csv/203-csv/181.csv", "prediction": "Doug Shierson Racing", "extracted": true}
+{"key": "nu-460", "question": "Which country won more bronze medals than China?", "answer": "Japan (JPN)|South Korea (KOR)", "table_id": "csv/203-csv/811.csv", "prediction": "Japan", "direct": true}
+{"key": "nu-461", "question": "How many years has he released singles for?", "answer": "17", "table_id": "csv/204-csv/919.csv", "prediction": "13", "direct": true}
+{"key": "nu-462", "question": "How many times does Gwen's role appear?", "answer": "2", "table_id": "csv/201-csv/23.csv", "prediction": "2", "direct": true}
+{"key": "nu-463", "question": "How many times was the rating above 4.0?", "answer": "3", "table_id": "csv/203-csv/122.csv", "prediction": "3 times", "direct": true}
+{"key": "nu-464", "question": "How many administrators have worked at Suparco since 1961?", "answer": "9", "table_id": "csv/204-csv/720.csv", "prediction": "9", "extracted": true}
+{"key": "nu-465", "question": "What was the name of the poll published on the same day as Prime Consulting's last poll?", "answer": "RAI Consultants Ltd", "table_id": "csv/204-csv/116.csv", "prediction": "RAI Consultants Ltd", "extracted": true}
+{"key": "nu-466", "question": "Where did he score his first goal in an international match?", "answer": "Mestalla, Valencia, Spain", "table_id": "csv/203-csv/766.csv", "prediction": "Olimpico stadium in Serravalle, San Marino", "extracted": true}
+{"key": "nu-467", "question": "How many total medals do France and Greece have combined?", "answer": "19", "table_id": "csv/204-csv/165.csv", "prediction": "38", "direct": true}
+{"key": "nu-468", "question": "How many matches were there?", "answer": "10", "table_id": "csv/204-csv/254.csv", "prediction": "10", "extracted": true}
+{"key": "nu-469", "question": "How many countries have fewer than 10 medals in total?", "answer": "11", "table_id": "csv/204-csv/347.csv", "prediction": "8", "extracted": true}
+{"key": "nu-470", "question": "Who was the most frequent color commentator?", "answer": "Bryan Field", "table_id": "csv/204-csv/478.csv", "prediction": "Bryan Field", "direct": true}
+{"key": "nu-471", "question": "Did Japan or North Korea win more gold medals?", "answer": "Japan", "table_id": "csv/204-csv/682.csv", "prediction": "Japan", "extracted": true}
+{"key": "nu-472", "question": "What position did Alan Ameche play?", "answer": "Dick Bielski", "table_id": "csv/204-csv/519.csv", "prediction": "Fullback", "extracted": true}
+{"key": "nu-473", "question": "Who is listed after Kari Kimmel?", "answer": "Raven-Symon\u00e9", "table_id": "csv/203-csv/85.csv", "prediction": "Under the Sea | Raven-Symon\u00e9", "extracted": true}
+{"key": "nu-474", "question": "How many points did the players from the United States score in total?", "answer": "845", "table_id": "csv/203-csv/511.csv", "prediction": "845", "direct": true}
+{"key": "nu-475", "question": "Who scored on October 23, 2005?", "answer": "Lawrence, Elliott", "table_id": "csv/203-csv/143.csv", "prediction": "Unable to determine without specific information.", "extracted": true}
+{"key": "nu-476", "question": "How long did Ivan Zourine survive?", "answer": "1 year", "table_id": "csv/203-csv/669.csv", "prediction": "1 year", "direct": true}
+{"key": "nu-477", "question": "Which team has the Lola T98/00?", "answer": "Davis Racing", "table_id": "csv/204-csv/531.csv", "prediction": "None", "extracted": true}
+{"key": "nu-478", "question": "The last year had fewer than 3 million passengers.", "answer": "2010", "table_id": "csv/203-csv/111.csv", "prediction": "2009", "direct": true}
+{"key": "nu-479", "question": "Which operator runs more routes?", "answer": "GNR", "table_id": "csv/204-csv/754.csv", "prediction": "GNR", "direct": true}
+{"key": "nu-480", "question": "What is the name of the team that comes after Patrick Racing?", "answer": "Fern\u00e1ndez Racing", "table_id": "csv/203-csv/659.csv", "prediction": "Mo Nunn Racing", "extracted": true}
+{"key": "nu-481", "question": "Which language is spoken by more people than Bengali?", "answer": "Hindi", "table_id": "csv/203-csv/167.csv", "prediction": "Hindi", "extracted": true}
+{"key": "nu-482", "question": "When did the first race in the 2008 schedule take place?", "answer": "August 31", "table_id": "csv/203-csv/514.csv", "prediction": "August 31", "extracted": true}
+{"key": "nu-483", "question": "Which countries' film industries earned more at the box office than Russia?", "answer": "8", "table_id": "csv/203-csv/448.csv", "prediction": "Canada/United States, China, Japan, United Kingdom, France, South Korea, India, Germany, Australia", "direct": true}
+{"key": "nu-484", "question": "In what year did the recipient not act like herself or \"heaven\"?", "answer": "2014", "table_id": "csv/204-csv/348.csv", "prediction": "2013", "extracted": true}
+{"key": "nu-485", "question": "Who won an Academy Award for Best Director in \"The French Connection\"?", "answer": "William Friedkin", "table_id": "csv/200-csv/11.csv", "prediction": "William Friedkin", "extracted": true}
+{"key": "nu-486", "question": "What were the names of the movies that got a 7.5 rating on IMDB?", "answer": "The Five Obstructions|Nymphomaniac: Volume I", "table_id": "csv/203-csv/641.csv", "prediction": "\"The Five Obstructions\" and \"Nymphomaniac: Volume I\"", "extracted": true}
+{"key": "nu-487", "question": "How many games did the Tide win by 7 points?", "answer": "3", "table_id": "csv/203-csv/62.csv", "prediction": "2", "direct": true}
+{"key": "nu-488", "question": "How many times did the New York Americans not make the playoffs?", "answer": "2", "table_id": "csv/203-csv/435.csv", "prediction": "16", "direct": true}
+{"key": "nu-489", "question": "Which position was chosen the most?", "answer": "Halfback", "table_id": "csv/204-csv/519.csv", "prediction": "Halfback", "extracted": true}
+{"key": "nu-490", "question": "Which counties had at least 200 votes for Wyckoff?", "answer": "36", "table_id": "csv/203-csv/520.csv", "prediction": "Solano, Sacramento, Alameda, Contra Costa, Ventura", "extracted": true}
+{"key": "nu-491", "question": "How many people went to the game on December 10, 1960?", "answer": "21,840", "table_id": "csv/204-csv/411.csv", "prediction": "21,840", "extracted": true}
+{"key": "nu-492", "question": "For which odds of winning is the prize more than $450?", "answer": "2,000", "table_id": "csv/203-csv/546.csv", "prediction": "1 in 1, 1 in 2, 1 in 3, 1 in 4, and 1 in 5", "direct": true}
+{"key": "nu-493", "question": "Which race happened before the super combined in 2009?", "answer": "Giant slalom", "table_id": "csv/203-csv/779.csv", "prediction": "Downhill", "extracted": true}
+{"key": "nu-494", "question": "Which episode came first, \"Dig Me Out\" or \"Basket Case\"?", "answer": "Dig Me Out", "table_id": "csv/204-csv/674.csv", "prediction": "Basket Case", "extracted": true}
+{"key": "nu-495", "question": "How many players were on the Jazz team for 3 years or more?", "answer": "3", "table_id": "csv/203-csv/820.csv", "prediction": "4", "direct": true}
+{"key": "nu-496", "question": "How many movies have they been in total?", "answer": "17", "table_id": "csv/203-csv/463.csv", "prediction": "17", "extracted": true}
+{"key": "nu-497", "question": "Who is the governor of New Mexico?", "answer": "Susana Martinez", "table_id": "csv/200-csv/45.csv", "prediction": "Susana Martinez", "extracted": true}
+{"key": "nu-498", "question": "How many seasons did they lose only 3 conference games at most?", "answer": "4", "table_id": "csv/204-csv/640.csv", "prediction": "2 seasons", "direct": true}
+{"key": "nu-499", "question": "Which country won the most awards?", "answer": "United States", "table_id": "csv/203-csv/821.csv", "prediction": "United States", "extracted": true}

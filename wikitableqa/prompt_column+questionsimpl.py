@@ -307,12 +307,41 @@ if __name__ == "__main__":
     for key in tqdm.tqdm(keys):
         entry = wikitableqa[key]
 
-        # question_og = entry['question']
+        question_og = entry['question']
 
-        # prompt_question = question_demonstration + '\n'
-        # prompt_question += 'Complex: ' + question_og + '\nSimple:'
+        prompt_question = question_demonstration + '\n'
+        prompt_question += 'Complex: ' + question_og + '\nSimple:'
         
-        # response_q = openai.ChatCompletion.create(
+        response_q = openai.ChatCompletion.create(
+            model=args.model,
+            #   prompt=prompt,
+            temperature=0.7,
+            max_tokens=100,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0,
+            messages=[{"role": "user", "content": prompt_question}]
+        )
+
+        question = response_q['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0]
+        # print(prompt_question)
+        # print(question)
+        # print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        answer = entry['answer']
+
+        #### Formalizing the k-shot demonstration. #####
+        # val = 0
+        # table = entry['table'].strip().strip('\n').strip('\n').split('\n')
+        # first_row_add = table[0].strip()
+        # first_col = []
+        # for l in range(len(table)):
+        #     line = table[l].strip().split(" | ")
+        #     first_col.append(line[0])
+        # first_col_add = " | ".join(first_col)
+        # prompt_v2 = prompt_row_or_column + "1. " + first_row_add + "\n2. " + first_col_add + "\nAnswer: "
+        # # print(prompt_v2)
+
+        # response_row_or_column = openai.ChatCompletion.create(
         #     model=args.model,
         #     #   prompt=prompt,
         #     temperature=0.7,
@@ -320,16 +349,20 @@ if __name__ == "__main__":
         #     top_p=1,
         #     frequency_penalty=0,
         #     presence_penalty=0,
-        #     messages=[{"role": "user", "content": prompt_question}]
+        #     messages=[{"role": "user", "content": prompt_v2}]
         # )
+        # response_r_or_c = response_row_or_column['choices'][0]["message"]['content'].strip().strip("\n")
+       
+        #### Checking of choosing rows or columns
+        # print(response_r_or_c)
+        # if ("1" in response_r_or_c):
+        #     print("1 zaschitalo")
+        # else: 
+        #     print("2 zaschitalo")
+        # print("##########################")
+        # continue
 
-        # question = response_q['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0]
-        # print(prompt_question)
-        # print(question)
-        # print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        question = entry['question']
-        answer = entry['answer']
-
+        # if ("1" in response_r_or_c): # The first row contains titles
         prompt_col = demonstration_columns[args.option] + '\n'
         prompt_col += f'Read the table below regarding "{entry["title"]}" to choose relevant columns for the following questions.\n\n'
         if 'davinci' in args.model:
