@@ -8,7 +8,7 @@ import sys
 from datetime import datetime
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--option", default='cot', type=str)
+parser.add_argument("--option", default='direct', type=str)
 parser.add_argument("--model", default='gpt-3.5-turbo', type=str)
 parser.add_argument("--start", required=True, type=int)
 parser.add_argument("--end", required=True, type=int)
@@ -154,6 +154,28 @@ Explanation: David Moncoutié spent the most time to finish the game and ranked 
 """
 
 demonstration_row_type = {}
+demonstration_row_type['direct'] = """
+Read the table below regarding "2008 Clásica de San Sebastián" to answer the following questions.
+
+Rank | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+Cyclist | Alejandro Valverde (ESP) | Alexandr Kolobnev (RUS) | Davide Rebellin (ITA) | Paolo Bettini (ITA) | Franco Pellizotti (ITA) | Denis Menchov (RUS) | Samuel Sánchez (ESP) | Stéphane Goubert (FRA) | Haimar Zubeldia (ESP) | David Moncoutié (FRA)
+Team | Caisse d'Epargne | Team CSC Saxo Bank | Gerolsteiner | Quick Step | Liquigas | Rabobank | Euskaltel-Euskadi | Ag2r-La Mondiale | Euskaltel-Euskadi | Cofidis
+Time | 5h 29' 10 | s.t. | s.t. | s.t. | s.t. | s.t. | s.t. | + 2 | + 2 | + 2
+UCI ProTour Points | 40 | 30 | 25 | 20 | 15 | 11 | 7 | 5 | 3 | 1
+
+
+Question: which country had the most cyclists finish within the top 10?
+The answer is Italy.
+
+Question: how many players got less than 10 points?
+The answer is 4.
+
+Question: how many points does the player from rank 3, rank 4 and rank 5 combine to have? 
+The answer is 60.
+
+Question: who spent the most time in the 2008 Clásica de San Sebastián. 
+The answer is David Moncoutié.
+"""
 demonstration_row_type['cot'] = """
 Read the table below regarding "2008 Clásica de San Sebastián" to answer the following questions.
 
@@ -168,7 +190,7 @@ Question: which country had the most cyclists finish within the top 10?
 Explanation: ITA occurs three times in the table, more than any others. Therefore, the answer is Italy.
 
 Question: how many players got less than 10 points?
-Explanation: Samuel Sánchez,  Stéphane Goubert, Haimar Zubeldia and David Moncoutié received less than 10 points.  Therefore, the answer is 4.
+Explanation: Samuel Sánchez, Stéphane Goubert, Haimar Zubeldia and David Moncoutié received less than 10 points.  Therefore, the answer is 4.
 
 Question: how many points does the player from rank 3, rank 4 and rank 5 combine to have? 
 Explanation: rank 3 has 25 points, rank 4 has 20 points, rank 5 has 15 points, they combine to have a total of 60 points. Therefore, the answer is 60.
@@ -178,8 +200,7 @@ Explanation: David Moncoutié spent the most time to finish the game and ranked 
 """
 
 
-demonstration_columns = {}
-demonstration_columns['cot'] = """
+demonstration_columns = """
 Read the table below regarding "2008 Clásica de San Sebastián" table to choose relevant columns for the following questions.
 
 Rank | Cyclist | Team | Time | UCI ProTour Points
@@ -198,8 +219,7 @@ Question: who spent the most time in the 2008 Clásica de San Sebastián?
 Answer: Rank | Cyclist | Time
 """
 
-demonstration_rows = {}
-demonstration_rows['cot'] = """
+demonstration_rows = """
 Read the table below regarding "2008 Clásica de San Sebastián" table to choose relevant rows for the following questions.
 
 Rank | 1
@@ -336,8 +356,12 @@ if __name__ == "__main__":
         # print("##########################")
         # continue
 
+        print(prompt_v2)
+        print(response_r_or_c)
+        print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+
         if ("1" in response_r_or_c): # The first row contains titles
-            prompt_col = demonstration_columns[args.option] + '\n'
+            prompt_col = demonstration_columns + '\n'
             prompt_col += f'Read the table below regarding "{entry["title"]}" to choose relevant columns for the following questions.\n\n'
             if 'davinci' in args.model:
                 prompt_col += '\n'.join(entry['table'].split('\n')[:15])
@@ -361,8 +385,13 @@ if __name__ == "__main__":
                 )
                 # print(response)
                 # continue
+                print(prompt_col)
+                print(response['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0])
+                print("##########################")
 
                 table_processed = decompose_table(entry['table'], response['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0])
+                if (len(table_processed.strip('\n')) == 0):
+                    table_processed = entry['table']
                 # print(table_processed)
                 prompt = demonstration[args.option] + '\n'
                 prompt += f'Read the table below regarding "{entry["title"]}" to answer the following question.\n\n'
@@ -370,8 +399,11 @@ if __name__ == "__main__":
                     prompt += '\n'.join(entry['table'].split('\n')[:15]) #zabeite
                 else:
                     prompt += table_processed + '\n'
-                prompt += 'Question: ' + question + '\nExplanation:'
-
+                prompt += 'Question: ' + question + '\n'
+                if (args.option == 'cot'):
+                    prompt += 'Explanation:'
+                else:
+                    prompt += 'Answer:'
                 print(prompt)
                 response222 = openai.ChatCompletion.create(
                 model=args.model,
@@ -391,7 +423,7 @@ if __name__ == "__main__":
 
                 fw.write(json.dumps(tmp) + '\n')
         else: # The first column contains titles
-            prompt_col = demonstration_rows[args.option] + '\n'
+            prompt_col = demonstration_rows + '\n'
             prompt_col += f'Read the table below regarding "{entry["title"]}" to choose relevant rows for the following questions.\n\n'
             if 'davinci' in args.model:
                 prompt_col += '\n'.join(entry['table'].split('\n')[:15])
@@ -416,8 +448,13 @@ if __name__ == "__main__":
                 )
                 # print(response)
                 # continue
+                print(prompt_col)
+                print(response['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0])
+                print("##########################")
 
                 table_processed = decompose_table_byrows(entry['table'], response['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0])
+                if (len(table_processed.strip('\n')) == 0):
+                    table_processed = entry['table']
                 # print(table_processed)
                 prompt = demonstration_row_type[args.option] + '\n'
                 prompt += f'Read the table below regarding "{entry["title"]}" to answer the following question.\n\n'
@@ -425,8 +462,11 @@ if __name__ == "__main__":
                     prompt += '\n'.join(entry['table'].split('\n')[:15]) #zabeite
                 else:
                     prompt += table_processed + '\n'
-                prompt += 'Question: ' + question + '\nExplanation:'
-
+                prompt += 'Question: ' + question + '\n'
+                if (args.option == 'cot'):
+                    prompt += 'Explanation:'
+                else:
+                    prompt += 'Answer:'
                 print(prompt)
                 response222 = openai.ChatCompletion.create(
                 model=args.model,

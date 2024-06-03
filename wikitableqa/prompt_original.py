@@ -8,8 +8,8 @@ import sys
 from datetime import datetime
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--option", default='direct', type=str)
-parser.add_argument("--model", default='gpt-3.5-turbo', type=str)
+parser.add_argument("--option", default='cot', type=str)
+parser.add_argument("--model", default='gpt-4o', type=str)
 parser.add_argument("--start", required=True, type=int)
 parser.add_argument("--end", required=True, type=int)
 parser.add_argument("--dry_run", default=False, action="store_true",
@@ -109,7 +109,7 @@ if __name__ == "__main__":
         #### Formalizing the k-shot demonstration. #####
         prompt = demonstration[args.option] + '\n'
         prompt += f'Read the table blow regarding "{entry["title"]}" to answer the following question.\n\n'
-        if 'davinci' not in args.model:
+        if 'davinci' in args.model:
             prompt += '\n'.join(entry['table'].split('\n')[:15])
         else:
             prompt += entry['table'] + '\n'
@@ -129,9 +129,10 @@ if __name__ == "__main__":
                 presence_penalty=0,
                 messages=[{"role": "user", "content": prompt}]
             )
-            
+            print(prompt)
+            print("###################")
             response = response['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0]
-
+            print(response)
             tmp = {'key': key, 'question': question, 'response': response, 'answer': answer, 'table_id': entry['table_id']}
 
             fw.write(json.dumps(tmp) + '\n')

@@ -8,7 +8,7 @@ import sys
 from datetime import datetime
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--option", default='cot', type=str)
+parser.add_argument("--option", default='direct', type=str)
 parser.add_argument("--model", default='gpt-3.5-turbo', type=str)
 parser.add_argument("--start", required=True, type=int)
 parser.add_argument("--end", required=True, type=int)
@@ -178,8 +178,7 @@ Explanation: David Moncoutié spent the most time to finish the game and ranked 
 """
 
 
-demonstration_columns = {}
-demonstration_columns['cot'] = """
+demonstration_columns = """
 Read the table below regarding "2008 Clásica de San Sebastián" table to choose relevant columns for the following questions.
 
 Rank | Cyclist | Team | Time | UCI ProTour Points
@@ -330,7 +329,7 @@ if __name__ == "__main__":
         question = entry['question']
         answer = entry['answer']
 
-        prompt_col = demonstration_columns[args.option] + '\n'
+        prompt_col = demonstration_columns + '\n'
         prompt_col += f'Read the table below regarding "{entry["title"]}" to choose relevant columns for the following questions.\n\n'
         if 'davinci' in args.model:
             prompt_col += '\n'.join(entry['table'].split('\n')[:15])
@@ -356,6 +355,8 @@ if __name__ == "__main__":
             # continue
 
             table_processed = decompose_table(entry['table'], response['choices'][0]["message"]['content'].strip().strip('\n').strip('\n').split('\n')[0])
+            if (len(table_processed.strip('\n')) == 0):
+                table_processed = entry['table']
             # print(table_processed)
             prompt = demonstration[args.option] + '\n'
             prompt += f'Read the table below regarding "{entry["title"]}" to answer the following question.\n\n'
@@ -363,7 +364,7 @@ if __name__ == "__main__":
                 prompt += '\n'.join(entry['table'].split('\n')[:15]) #zabeite
             else:
                 prompt += table_processed + '\n'
-            prompt += 'Question: ' + question + '\nExplanation:'
+            prompt += 'Question: ' + question + '\nAnswer:'
 
             print(prompt)
             response222 = openai.ChatCompletion.create(
