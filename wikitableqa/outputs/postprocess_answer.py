@@ -46,7 +46,7 @@ def get_answer(pred):
 if __name__ == "__main__":
     args = parser.parse_args()
     # openai.api_key = os.getenv('OPENAI_KEY')
-    openai.api_key = "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"
+    openai.api_key = ""
 
     for filename in glob.glob(args.inputs):
         print('Start', filename)

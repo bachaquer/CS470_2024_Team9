@@ -68,7 +68,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # openai.api_key = os.getenv('OPENAI_KEY')
-    openai.api_key = "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"
+    openai.api_key = ""
 
     with open(f'test_qa.json') as f:
         fetaqa = json.load(f)
